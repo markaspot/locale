@@ -306,15 +306,15 @@ msgstr "User deleted"
 
 #: /controllers/components/transaction.php:56
 msgid "Marker edited by authorities"
-msgstr "Marker edited by authorities"
+msgstr "Report edited by authorities"
 
 #: /controllers/components/transaction.php:60
 msgid "Marker edited by user"
-msgstr "Marker edited by user"
+msgstr "Report edited by user"
 
 #: /controllers/components/transaction.php:64;68
 msgid "Marker added"
-msgstr "Marker added"
+msgstr "Report added"
 
 #: /controllers/components/transaction.php:72
 msgid "Marker added by API"
@@ -378,7 +378,7 @@ msgstr "Twitter-Report"
 
 #: /models/marker.php:218;235;248
 msgid "New Marker ID#"
-msgstr "New Marker ID#"
+msgstr "New Report ID#"
 
 #: /models/marker.php:220;237;250
 msgid "Not yet published"
@@ -725,7 +725,7 @@ msgstr "Hot spot!"
 #: /views/markers/mobile/preview.ctp:81
 #: /views/markers/mobile/view.ctp:77
 msgid "Please rate this Marker"
-msgstr "Please rate this Marker"
+msgstr "Please rate this Report"
 
 #: /plugins/rating/controllers/ratings_controller.php:137
 msgid "Vote(s)"
@@ -770,7 +770,7 @@ msgstr "Abstain"
 
 #: /plugins/voting/config/plugin_voting.php:109
 msgid "We got #VOTES# vote(s) for this Marker."
-msgstr "We got #VOTES# vote(s) for this Marker."
+msgstr "We got #VOTES# vote(s) for this Report."
 
 #: /plugins/voting/config/plugin_voting.php:121
 msgid "%VOTES%%"
@@ -980,7 +980,7 @@ msgstr ""
 #: /views/elements/navigation_footer.ctp:4
 #: /views/users/admin_view.ctp:124
 msgid "List Markers"
-msgstr ""
+msgstr "List Report"
 
 #: /views/comments/add.ctp:18
 #: /views/comments/edit.ctp:20
@@ -992,7 +992,7 @@ msgstr ""
 #: /views/districts/view.ctp:56
 #: /views/users/admin_view.ctp:125;260
 msgid "New Marker"
-msgstr ""
+msgstr "New Report"
 
 #: /views/comments/edit.ctp:4
 #: /views/comments/view.ctp:44
@@ -1063,7 +1063,7 @@ msgstr ""
 #: /views/comments/view.ctp:10
 #: /views/districts/view.ctp:17
 msgid "Marker"
-msgstr ""
+msgstr "Report"
 
 #: /views/comments/view.ctp:15
 msgid "Title"
@@ -1156,7 +1156,7 @@ msgstr ""
 #: /views/elements/infofooter.ctp:6
 #: /views/markers/app.ctp:162
 msgid "Markers"
-msgstr ""
+msgstr "Reports"
 
 #: /views/elements/admin_sidebar.ctp:5
 msgid "Users"
@@ -1366,7 +1366,7 @@ msgstr ""
 
 #: /views/elements/infofooter.ctp:8
 msgid "open Markers"
-msgstr ""
+msgstr "open Reports"
 
 #: /views/elements/infofooter.ctp:9
 msgid "overall"
@@ -1398,16 +1398,16 @@ msgstr ""
 
 #: /views/elements/navigation.ctp:5
 msgid "View all Markers in List view"
-msgstr ""
+msgstr "Reports List"
 
 #: /views/elements/navigation.ctp:8
 msgid "View Markers in List view"
-msgstr ""
+msgstr "Reports List"
 
 #: /views/elements/navigation.ctp:10
 #: /views/markers/startup.ctp:41;61
 msgid "Add a Marker"
-msgstr ""
+msgstr "Add report"
 
 #: /views/elements/navigation.ctp:14
 msgid "Participate by clicking on the map and add some content"
@@ -1574,7 +1574,7 @@ msgstr ""
 #: /views/markers/liste.ctp:117
 #: /views/markers/preview.ctp:109
 #: /views/markers/view.ctp:99
-msgid "Are you sure to delete Marker # %s?"
+msgid "Are you sure to delete Report # %s?"
 msgstr ""
 
 #: /views/markers/admin_edit.ctp:88
@@ -1740,7 +1740,7 @@ msgstr ""
 #: /views/markers/liste.ctp:73
 #: /views/markers/search.ctp:91
 msgid "Page %page% of %pages% | %current% Markers of %count%"
-msgstr ""
+msgstr "Page %page% of %pages% | %current% Reports of %count%"
 
 #: /views/markers/ajaxlist.ctp:125
 #: /views/users/admin_index.ctp:142
@@ -1770,7 +1770,7 @@ msgstr ""
 
 #: /views/markers/ajaxlist.ctp:150
 msgid "No Markers found"
-msgstr ""
+msgstr "No reports found"
 
 #: /views/markers/ajaxlist.ctp:165
 msgid "Show in Map"
@@ -1824,11 +1824,11 @@ msgstr ""
 
 #: /views/markers/app.ctp:51
 msgid "All Markers"
-msgstr ""
+msgstr "All reports"
 
 #: /views/markers/app.ctp:69
 msgid "All Markers sorted by"
-msgstr ""
+msgstr "All reports sorted by"
 
 #: /views/markers/app.ctp:89
 #: /views/markers/liste.ctp:101
@@ -1892,11 +1892,11 @@ msgstr ""
 
 #: /views/markers/liste.ctp:57
 msgid "Your Markers"
-msgstr ""
+msgstr "Your reports"
 
 #: /views/markers/liste.ctp:59
 msgid "All Markers "
-msgstr ""
+msgstr "All reports"
 
 #: /views/markers/liste.ctp:76
 msgid "Sort markers"
@@ -2199,7 +2199,7 @@ msgstr ""
 
 #: /views/users/admin_view.ctp:138;272
 msgid "Marker Id"
-msgstr ""
+msgstr "Report ID"
 
 #: /views/users/admin_view.ctp:139;191;270
 msgid "User Id"
@@ -2215,7 +2215,7 @@ msgstr ""
 
 #: /views/users/admin_view.ctp:185
 msgid "Related Markers"
-msgstr ""
+msgstr "Related Reports"
 
 #: /views/users/admin_view.ctp:190
 msgid "Gov Id"
