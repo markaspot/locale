@@ -3,191 +3,198 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2011-05-24 06:11+0000\n"
-"PO-Revision-Date: 2011-05-26 13:26+0100\n"
+"Project-Id-Version: Mark-a-Spot\n"
+"POT-Creation-Date: 2011-06-03 06:16+0000\n"
+"PO-Revision-Date: 2011-06-24 08:32+0100\n"
 "Last-Translator: Holger Kreis <holger@markaspot.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
 
 #: /app_controller.php:46
 msgid "Username or password not found"
-msgstr "Ihr Benutzer wurde nicht gefunden oder das Passwort wurde falsch eingegeben"
+msgstr "Username or password not found"
 
 #: /app_controller.php:47
 msgid "You are not authorized to access this location"
-msgstr "Sie sind hierzu nicht berechtigt, bitte noch einmal versuchen."
+msgstr "You are not authorized to access this location"
 
 #: /app_controller.php:91
 msgid "You are not allowed here!"
-msgstr "Sie sind hierzu nicht berechtigt."
+msgstr "You are not allowed here!"
 
 #: /controllers/api_controller.php:262
-msgid "The marker marker has been updated."
-msgstr "Das Anliegen wurde gespeichert."
+#: /controllers/open311_controller.php:262
+msgid "The marker has been updated."
+msgstr "The report has been updated."
 
 #: /controllers/api_controller.php:321
 #: /controllers/markers_controller.php:357;751
+#: /controllers/open311_controller.php:321
 msgid "The Marker ID# %s has been saved."
-msgstr "Das Anliegen mit der id# %s wurde gespeichert."
+msgstr "Report ID# %s has been saved."
 
 #: /controllers/api_controller.php:364
+#: /controllers/open311_controller.php:364
 msgid "Marker deleted."
-msgstr "Benutzer wurde gelöscht."
+msgstr "Report deleted."
 
 #: /controllers/categories_controller.php:35
 msgid "Edit Categories"
-msgstr "Kategorien bearbeiten"
+msgstr "Edit Categories"
 
 #: /controllers/comments_controller.php:73
 msgid "This comment has been saved and will be soon published by authorities."
-msgstr "Der Kommentar wurde gespeichert und wird bald freigegeben."
+msgstr "This comment has been saved and will be soon published by authorities."
 
 #: /controllers/comments_controller.php:79
 msgid "This comment has been saved."
-msgstr "Der Kommentar wurde gespeichert."
+msgstr "This comment has been saved."
 
 #: /controllers/comments_controller.php:85
 msgid "This comment could not be saved."
-msgstr "Der Kommentar konnte nicht gespeichert werden."
+msgstr "This comment could not be saved."
 
 #: /controllers/comments_controller.php:89
 #: /controllers/users_controller.php:114;266
 msgid "Sorry, you are wrong, please recalculate."
-msgstr "Die Lösung war leider falsch. "
+msgstr "Sorry, you are wrong, please recalculate."
 
 #: /controllers/comments_controller.php:109
 msgid "This comment does not exist"
-msgstr "Diesen Kommentar gibt es nicht."
+msgstr "This comment does not exist"
 
 #: /controllers/comments_controller.php:143
 msgid "Status changed."
-msgstr "Der Status wurde geändert."
+msgstr "Status changed."
 
 #: /controllers/comments_controller.php:158
 msgid "Invalid id for Comment"
-msgstr "Ungültige ID für diesen Kommentar"
+msgstr "Invalid id for Comment"
 
 #: /controllers/comments_controller.php:178
 msgid "Invalid comment"
-msgstr "Ungültiger Kommentar"
+msgstr "Invalid comment"
 
-# weg damit
 #: /controllers/comments_controller.php:184
 msgid "The comment has been saved"
-msgstr "Ihr Kommentar wurde gespeichert."
+msgstr "The comment has been saved"
 
 #: /controllers/comments_controller.php:187
 msgid "The comment could not be saved. Please, try again."
-msgstr "Der Kommentar konnte nicht gespeichert werden."
+msgstr "The comment could not be saved. Please, try again."
 
 #: /controllers/comments_controller.php:217
 msgid "Invalid Comment"
-msgstr "Ungültiger Kommentar"
+msgstr "Invalid Comment"
 
 #: /controllers/markers_controller.php:53
 #: /views/markers/index.ctp:49
 msgid "Welcome to mas-city.com/markaspot"
-msgstr "Willkommen beim Bürgeranliegen für Mas-City Dev"
+msgstr "Welcome to mas-city.com/"
 
 #: /controllers/markers_controller.php:111
 msgid "Map and List View"
-msgstr "Karten- und Listenansicht"
+msgstr "Map and List View"
 
 #: /controllers/markers_controller.php:143;192
 msgid "Markers in a list"
-msgstr "Anliegen als Liste"
+msgstr "Reports in a list"
 
 #: /controllers/markers_controller.php:337;447
-#: /controllers/pages_controller.php:203
+#: /controllers/pages_controller.php:173
 msgid "Add Marker"
-msgstr "Beitrag schreiben"
+msgstr "Add Report"
 
 #: /controllers/markers_controller.php:405;546;759;858
 msgid "This marker could not be saved."
-msgstr "Das Anliegen konnte nicht gespeichert werden."
+msgstr "This report could not be saved."
 
 #: /controllers/markers_controller.php:501
 msgid "The Marker ID# %s has been saved. Please check your e-mail."
-msgstr "<h3>Erfolg!</h3><p>Das Anliegen mit der Nummer <strong>#%s<strong> wurde gespeichert.</p><p>Bitte überprüfen Sie jetzt Ihr E-Mail Postfach.</p><p>Nach Erst nach Aktivierung Ihres Benutzerkontos kann Ihr Beitrag durch die Administration freigeschaltet werden.</p>"
+msgstr "The Report ID# %s has been saved. Please check your e-mail."
 
 #: /controllers/markers_controller.php:605;666;692;828;918
 #: /controllers/twitter_controller.php:52
 msgid "This marker does not exist."
-msgstr "Dieses Anliegen gibt es nicht."
+msgstr "This report does not exist."
 
 #: /controllers/markers_controller.php:688
 #: /views/markers/edit.ctp:85
 msgid "Edit marker"
-msgstr "Anliegen bearbeiten"
+msgstr "Edit report"
 
 #: /controllers/markers_controller.php:714
 msgid "Der Hinweis wurde gespeichert!"
-msgstr "Das Anliegen wurde gespeichert!"
+msgstr "The Report ID# %s has been saved"
 
-# weg damit
 #: /controllers/markers_controller.php:731
 msgid "The Status has been tweeted."
-msgstr "Der Status wurde getwittert."
+msgstr "The Status has been tweeted."
 
 #: /controllers/markers_controller.php:742
 #: /controllers/components/twitter_service.php:341
 msgid "The Marker ID# %s has been saved. The user will be notified."
-msgstr "Das Anliegen mit der id# %s wurde gespeichert. Der Benutzer wird benachrichtigt."
+msgstr "Report with ID# %s has been saved. The user will be notified."
 
 #: /controllers/markers_controller.php:851
 msgid "This marker has been saved."
-msgstr "Das Anliegen wurde gespeichert. "
+msgstr "This report has been saved."
 
 #: /controllers/markers_controller.php:1005
 msgid "Marker has been deleted"
-msgstr "Anliegen wurde gelöscht"
+msgstr "Report has been deleted"
 
 #: /controllers/markers_controller.php:1137
 #: /views/markers/index.ctp:52
 msgid "Managing Concerns of Public Space"
-msgstr "Anliegenmanagement für den öffentlichen Raum"
+msgstr "Managing Concerns of Public Space"
 
-#: /controllers/pages_controller.php:126
+#: /controllers/pages_controller.php:97
 msgid "Logged into Admin."
-msgstr "Sie sind im Administrationsbereich angemeldet"
+msgstr "Logged into Admin."
 
-#: /controllers/pages_controller.php:132
-#: /plugins/configurator/controllers/configurations_controller.php:15;23;34;49
+#: /controllers/pages_controller.php:103
+#: /plugins/configurator/controllers/configurations_controller.php:16;25;37;52
 msgid "Administration"
-msgstr "Administrieren"
+msgstr "Administration"
 
 #: /controllers/transactions_controller.php:34
 msgid "Invalid id for Transaction"
-msgstr "Ungültige ID für diese Transaktion"
+msgstr "Invalid id for Transaction"
 
 #: /controllers/twitter_controller.php:63
 msgid "Administrate incoming tweets"
-msgstr "Administration der Tweets"
+msgstr "Administrate incoming tweets"
 
 #: /controllers/twitter_controller.php:198
 msgid "Sorry, something went wrong"
-msgstr "Entschuldigung, bitte wiederholen Sie den Vorgang"
+msgstr "Sorry, something went wrong"
 
 #: /controllers/twitter_controller.php:231
 #: /controllers/users_controller.php:85
 msgid "Great, you signed up successfully. Please check your Mail."
-msgstr "Sie haben sich erfolgreich registriert. Bitte überprüfen Sie Ihren E-Mail Eingang."
+msgstr "Great, you signed up successfully. Please check your Mail."
 
 #: /controllers/twitter_controller.php:241
 msgid ""
 "Great, you signed up successfully with the help of your \n"
 "\t\t\t\t\t\ttwitter-account"
-msgstr "Sie sind nun mit Ihrem Twitter-Account angemeldet und können Beiträge einstellen"
+msgstr ""
+"Great, you signed up successfully with the help of your \n"
+"\t\t\t\t\t\ttwitter-account"
 
 #: /controllers/twitter_controller.php:277
 msgid ""
 "Great, you logged in successfully with the help of your \n"
 "\t\t\t\t\t\ttwitter-account"
-msgstr "Sie sind nun mit Ihrem Twitter-Account angemeldet und können Beiträge einstellen"
+msgstr ""
+"Great, you logged in successfully with the help of your \n"
+"\t\t\t\t\t\ttwitter-account"
 
 #: /controllers/users_controller.php:37
 #: /views/elements/admin_sidebar.ctp:35
@@ -198,189 +205,184 @@ msgstr "Sie sind nun mit Ihrem Twitter-Account angemeldet und können Beiträge 
 #: /views/users/signup.ctp:84
 #: /views/users/mobile/login.ctp:24;28;46
 msgid "Log in"
-msgstr "Anmelden"
+msgstr "Log in"
 
 #: /controllers/users_controller.php:40
 msgid "You signed in successfully with your Facebook account"
-msgstr "Sie sind nun über Ihren Facebook Account angemeldet und können Beiträge einstellen"
+msgstr "You signed in successfully with your Facebook account"
 
 #: /controllers/users_controller.php:70
 #: /views/users/signup.ctp:29
 msgid "Sign up"
-msgstr "Registrieren"
+msgstr "Sign up"
 
 #: /controllers/users_controller.php:105
 msgid "We could&rsquo;nt sign up your account!"
-msgstr "Wir konnten Sie nicht registrieren."
+msgstr "We could&rsquo;nt sign up your account!"
 
 #: /controllers/users_controller.php:150
 msgid "You are already confirmed as user."
-msgstr "Sie sind als Benutzer bereits bestätigt."
+msgstr "You are already confirmed as user."
 
 #: /controllers/users_controller.php:165
 msgid "You are now confirmed as user."
-msgstr "Sie wurden als Benutzer bestätigt."
+msgstr "You are now confirmed as user."
 
 #: /controllers/users_controller.php:183
 msgid "This User does not exist"
-msgstr "Diesen Benutzer gibt es nicht."
+msgstr "This User does not exist"
 
 #: /controllers/users_controller.php:197
 msgid "Your userdata and all markers have been deleted."
-msgstr "Ihre Benutzerdaten und alle Anliegen wurden gelöscht."
+msgstr "Your userdata and all markers have been deleted."
 
 #: /controllers/users_controller.php:204
 msgid "You logged out successfully"
-msgstr "Sie haben sich erfolgreich abgemeldet."
+msgstr "You logged out successfully"
 
 #: /controllers/users_controller.php:224
 msgid "Lost Password"
-msgstr "Passwort vergessen"
+msgstr "Lost Password"
 
 #: /controllers/users_controller.php:232
 msgid "We could not find your e-mail"
-msgstr "Wir konnten Ihre E-Mail Adresse nicht im Datenbestand finden."
+msgstr "We could not find your e-mail"
 
 #: /controllers/users_controller.php:253
 msgid "Please check your mail to receive more details."
-msgstr "Bitte überprüfen Sie Ihren E-Mail Eingang."
+msgstr "Please check your mail to receive more details."
 
 #: /controllers/users_controller.php:259
 msgid "The ticket could not be sent."
-msgstr "Die E-Mail mit Anweisung zum Ändern Ihres Passwortes konnte nicht gesendet werden."
+msgstr "The ticket could not be sent."
 
 #: /controllers/users_controller.php:295
 msgid "Now enter your new password below."
-msgstr "Geben Sie ein neues Passwort ein."
+msgstr "Now enter your new password below."
 
 #: /controllers/users_controller.php:300
 msgid "Your ticket is no longer available."
-msgstr "Der Link ist nicht mehr gültig."
+msgstr "Your ticket is no longer available."
 
 #: /controllers/users_controller.php:317
 msgid "Enter new Password"
-msgstr "Geben Sie ein neues Passwort ein. "
+msgstr "Enter new Password"
 
-#: /controllers/users_controller.php:344;477
+#: /controllers/users_controller.php:344;482
 msgid "Your password has been changed"
-msgstr "Ihr Passwort wurde erfolgreich geändert."
+msgstr "Your password has been changed"
 
-#: /controllers/users_controller.php:349;482
+#: /controllers/users_controller.php:349;487
 msgid "Your password could not be changed."
-msgstr "Ihr Passwort konnte nicht geändert werden."
+msgstr "Your password could not be changed."
 
 #: /controllers/users_controller.php:363
 msgid "We could not find this user."
-msgstr "Dieser Benutzer wurde nicht gefunden."
+msgstr "We could not find this user."
 
 #: /controllers/users_controller.php:370
 msgid "This User and all his data has been deleted"
-msgstr "Ihre Benutzerdaten und alle Anliegen wurden gelöscht."
+msgstr "This User and all his data has been deleted"
 
-#: /controllers/users_controller.php:399;428;454
+#: /controllers/users_controller.php:399;433;459
 msgid "Invalid user"
-msgstr "Ungültiger Benutzer"
+msgstr "Invalid user"
 
-# weg damit
-#: /controllers/users_controller.php:413;434
+#: /controllers/users_controller.php:416;439
 msgid "The user has been saved"
-msgstr "Der Benutzer wurde gespeichert."
+msgstr "The user has been saved"
 
-#: /controllers/users_controller.php:416;438
+#: /controllers/users_controller.php:419;443
 msgid "The user could not be saved. Please, try again."
-msgstr "Der Benutzer konnte nicht gespeichert werden."
+msgstr "The user could not be saved. Please, try again."
 
-#: /controllers/users_controller.php:493
+#: /controllers/users_controller.php:498
 msgid "Invalid id for user"
-msgstr "Ungültige ID für diesen Benutzer"
+msgstr "Invalid id for user"
 
-#: /controllers/users_controller.php:508
+#: /controllers/users_controller.php:513
 msgid "User deleted"
-msgstr "Benutzer wurde gelöscht"
-
-#: /controllers/users_controller.php:556
-msgid "Great, you signed up successfully."
-msgstr "Sie haben sich erfolgreich registriert. Bitte überprüfen Sie Ihren E-Mail Eingang."
+msgstr "User deleted"
 
 #: /controllers/components/transaction.php:56
 msgid "Marker edited by authorities"
-msgstr "Anliegen von Verwaltung bearbeitet"
+msgstr "Marker edited by authorities"
 
 #: /controllers/components/transaction.php:60
 msgid "Marker edited by user"
-msgstr "Beitrag durch Benutzer bearbeitet"
+msgstr "Marker edited by user"
 
 #: /controllers/components/transaction.php:64;68
 msgid "Marker added"
-msgstr "Anliegen hinzugefügt"
+msgstr "Marker added"
 
 #: /controllers/components/transaction.php:72
 msgid "Marker added by API"
-msgstr "Anliegen hinzugefügt (Mobile User)"
+msgstr "Report added by API"
 
 #: /controllers/components/transaction.php:76
 msgid "Marker edited by API"
-msgstr "Beitrag durch API  bearbeitet"
+msgstr "Report edited by API"
 
 #: /controllers/components/transaction.php:81
 msgid "Marker viewed"
-msgstr "Beitrag angesehen"
+msgstr "Report has been viewed"
 
 #: /controllers/components/transaction.php:85
 msgid "Marker&rsquo;s position fixed or moved"
-msgstr "Anliegen-Position korrigiert"
+msgstr "Report&rsquo;s position fixed or moved"
 
 #: /controllers/components/transaction.php:89
 msgid "Marker has been rated"
-msgstr "Das Anliegen wurde bewertet."
+msgstr "Report has been rated"
 
 #: /controllers/components/transaction.php:93
 msgid "Marker has been voted"
-msgstr "Über den Vorschlag wurde abgestimmt."
+msgstr "Report has been voted"
 
 #: /controllers/components/transaction.php:97
 msgid "Comment added"
-msgstr "Beitrag wurde kommentiert"
+msgstr "Comment added"
 
 #: /controllers/components/transaction.php:102
 msgid "Marker added via Twitter"
-msgstr "Anliegen via Twitter"
+msgstr "Report added via Twitter"
 
 #: /controllers/components/transaction.php:109
 msgid "Marker edited Mobile"
-msgstr "Beitrag via Mobile bearbeitet"
+msgstr "Report edited Mobile"
 
 #: /controllers/components/twitter_service.php:48
 msgid "Twitter Reply More Information: "
-msgstr "Haben Sie zusätzliche Infos? "
+msgstr "Twitter Reply More Information: "
 
 #: /controllers/components/twitter_service.php:52
 msgid "Twitter Details needed"
-msgstr "Bitte Anliegen detaillieren"
+msgstr "Twitter Details needed"
 
 #: /controllers/components/twitter_service.php:56
 msgid "Twitter Address needed"
-msgstr "Bitte Geolokalisierung aktivieren"
+msgstr "Twitter Address needed"
 
 #: /controllers/components/twitter_service.php:60
 msgid "Twitter Picture available?"
-msgstr "Haben Sie ein Bild für uns"
+msgstr "Twitter Picture available?"
 
 #: /controllers/components/twitter_service.php:76
 msgid "Twitter Success Thanks! Your ID:  "
-msgstr "Danke! Beitrag angenommen: ID: "
+msgstr "Twitter Success Thanks! Your ID:  "
 
 #: /controllers/components/twitter_service.php:301
 msgid "Twitter-Report"
-msgstr "Anliegen via Twitter"
+msgstr "Twitter-Report"
 
 #: /models/marker.php:218;235;248
 msgid "New Marker ID#"
-msgstr "Neues Anliegen Id#"
+msgstr "New Marker ID#"
 
 #: /models/marker.php:220;237;250
 msgid "Not yet published"
-msgstr "Noch nicht veröffentlicht"
+msgstr "Not yet published"
 
 #: /plugins/configurator/views/configurations/admin_add.ctp:6
 #: /plugins/configurator/views/configurations/admin_edit.ctp:6
@@ -424,7 +426,7 @@ msgstr "Noch nicht veröffentlicht"
 #: /views/users/resetpassword.ctp:22
 #: /views/users/signup.ctp:24
 msgid "Home"
-msgstr "Startseite"
+msgstr "Home"
 
 #: /plugins/configurator/views/configurations/admin_add.ctp:12
 #: /plugins/configurator/views/configurations/admin_edit.ctp:12
@@ -434,6 +436,7 @@ msgstr "Startseite"
 #: /views/categories/admin_edit.ctp:34
 #: /views/categories/admin_index.ctp:34
 #: /views/categories/admin_view.ctp:34
+#: /views/elements/navigation.ctp:20
 #: /views/markers/admin_edit.ctp:37
 #: /views/pages/admin_index.ctp:28;64
 #: /views/twitter/admin_index.ctp:34
@@ -443,60 +446,120 @@ msgstr "Startseite"
 #: /views/users/admin_password.ctp:35
 #: /views/users/admin_view.ctp:32
 msgid "Admin Dashboard"
-msgstr "Administration"
+msgstr "Admin Dashboard"
 
 #: /plugins/configurator/views/configurations/admin_add.ctp:20
-#: /plugins/configurator/views/configurations/admin_edit.ctp:20
-#: /plugins/configurator/views/configurations/admin_index.ctp:20
-#: /plugins/configurator/views/configurations/admin_view.ctp:20
+#: /plugins/configurator/views/configurations/admin_edit.ctp:22
+#: /plugins/configurator/views/configurations/admin_index.ctp:21
+#: /plugins/configurator/views/configurations/admin_view.ctp:22
 #: /views/elements/admin_sidebar.ctp:21
-#: /plugins/configurator/views/configurations/admin_view.ctp:42
+#: /plugins/configurator/views/configurations/admin_view.ctp:44
 msgid "Configuration"
-msgstr "Konfiguration"
+msgstr "Configuration"
 
 #: /plugins/configurator/views/configurations/admin_add.ctp:43
 msgid "Add Configuration Property"
-msgstr "Neue Eigenschaft hinzufügen"
+msgstr "Add Configuration Property"
 
 #: /plugins/configurator/views/configurations/admin_add.ctp:64
-#: /plugins/configurator/views/configurations/admin_edit.ctp:71
-#: /views/markers/admin_edit.ctp:148
+#: /plugins/configurator/views/configurations/admin_edit.ctp:72
+#: /views/markers/admin_edit.ctp:151
 #: /views/markers/edit.ctp:91
 #: /views/twitter/admin_index.ctp:165
 msgid "<span>Save information</span>"
-msgstr "<span>Informationen speichern</span>"
+msgstr "<span>Save information</span>"
+
+#: /plugins/configurator/views/configurations/admin_edit.ctp:62
+msgid "enabled?"
+msgstr "enabled?"
+
+#: /plugins/configurator/views/configurations/admin_index.ctp:81
+#: /views/comments/index.ctp:54
+#: /views/districts/index.ctp:58
+#: /views/markers/admin_edit.ctp:74;76
+#: /views/markers/edit.ctp:72;74
+#: /views/statuses/admin_index.ctp:50
+#: /views/statuses/index.ctp:50
+#: /views/users/admin_view.ctp:169;249;293;333
+msgid "View"
+msgstr "View"
+
+#: /plugins/configurator/views/configurations/admin_index.ctp:87
+#: /views/comments/index.ctp:55
+#: /views/districts/index.ctp:59
+#: /views/statuses/admin_index.ctp:51
+#: /views/statuses/index.ctp:51
+#: /views/users/admin_view.ctp:170;250;294;334
+#: /plugins/configurator/views/configurations/admin_view.ctp:76
+msgid "Edit"
+msgstr "Edit"
+
+#: /plugins/configurator/views/configurations/admin_index.ctp:93
+#: /views/categories/admin_index.ctp:72
+#: /views/comments/edit.ctp:17
+#: /views/comments/index.ctp:56
+#: /views/districts/edit.ctp:18
+#: /views/districts/index.ctp:60
+#: /views/markers/admin_edit.ctp:80
+#: /views/markers/ajaxlist.ctp:206
+#: /views/markers/app.ctp:104
+#: /views/markers/edit.ctp:78
+#: /views/markers/liste.ctp:117
+#: /views/markers/preview.ctp:107
+#: /views/markers/view.ctp:97
+#: /views/markers/mobile/preview.ctp:165
+#: /views/markers/mobile/view.ctp:160
+#: /views/pages/admin_index.ctp:79
+#: /views/statuses/admin_edit.ctp:18
+#: /views/statuses/admin_index.ctp:52
+#: /views/statuses/edit.ctp:18
+#: /views/statuses/index.ctp:52
+#: /views/users/admin_index.ctp:189
+#: /views/users/admin_view.ctp:171;251;295;335
+#: /plugins/configurator/views/configurations/admin_view.ctp:77
+msgid "Delete"
+msgstr "Delete"
+
+#: /plugins/configurator/views/configurations/admin_index.ctp:95
+msgid "Are you sure to delete config # %s?"
+msgstr "Are you sure to delete config # %s?"
+
+#: /plugins/configurator/views/configurations/admin_index.ctp:106
+#: /views/users/admin_index.ctp:210
+msgid "Add"
+msgstr "Add"
 
 #: /plugins/install/controllers/install_controller.php:98
 msgid "Installation: Welcome"
-msgstr "Installation: Willkommen"
+msgstr "Installation: Welcome"
 
 #: /plugins/install/controllers/install_controller.php:113
 msgid "Step 1: Database connection"
-msgstr "1. Schritt: Datenbankverbindung konfigurieren"
+msgstr "Step 1: Database connection"
 
 #: /plugins/install/controllers/install_controller.php:131;173
 msgid "Could not connect to database."
-msgstr "Keine Verbindung zur Datenbank möglich"
+msgstr "Could not connect to database."
 
 #: /plugins/install/controllers/install_controller.php:152
 msgid "Could not write database.php file."
-msgstr "database.php konnte nicht beschrieben werden"
+msgstr "Could not write database.php file."
 
 #: /plugins/install/controllers/install_controller.php:164
 msgid "Step 2: Build database and data"
-msgstr "Erzeugen der Datenbank und Prefill"
+msgstr "Step 2: Build database and data"
 
-#: /plugins/install/controllers/install_controller.php:204
+#: /plugins/install/controllers/install_controller.php:203
 msgid "Installation completed successfully"
-msgstr "Installation erfolgreich"
+msgstr "Installation completed successfully"
 
-#: /plugins/install/controllers/install_controller.php:211
+#: /plugins/install/controllers/install_controller.php:210
 msgid "Installation files deleted successfully."
-msgstr "Installationsverzeichnis wurde erfolgreich entfernt"
+msgstr "Installation files deleted successfully."
 
-#: /plugins/install/controllers/install_controller.php:214
+#: /plugins/install/controllers/install_controller.php:213
 msgid "Could not delete installation files."
-msgstr "Installationsverzeichnis konnte nicht entfernt werden"
+msgstr "Could not delete installation files."
 
 #: /plugins/install/views/install/data.ctp:12
 #: /plugins/install/views/install/database.ctp:12
@@ -507,63 +570,67 @@ msgstr "Installation"
 
 #: /plugins/install/views/install/data.ctp:29
 msgid "Click here to build your database"
-msgstr "Klicken Sie hier, um die Datenbank zu erstellen"
+msgstr "Click here to build your database"
 
-#: /plugins/install/views/install/finish.ctp:45
+#: /plugins/install/views/install/finish.ctp:40
 msgid "Click here to delete installation files"
-msgstr "Klicken Sie hier, um das Installationsverzeichnis zu löschen"
+msgstr "Click here to delete installation files"
 
 #: /plugins/install/views/install/index.ctp:32
 msgid "Your tmp directory is writable."
-msgstr "Ihr tmp-Verzeichnis ist  beschreibbar"
+msgstr "Your tmp directory is writable."
 
 #: /plugins/install/views/install/index.ctp:35
 msgid "Your tmp directory is NOT writable."
-msgstr "Ihr tmp-Verzeichnis ist NICHT beschreibbar"
+msgstr "Your tmp directory is NOT writable."
 
 #: /plugins/install/views/install/index.ctp:40
 msgid "Your config directory is writable."
-msgstr "Ihr config-Verzeichnis ist beschreibbar"
+msgstr "Your config directory is writable."
 
 #: /plugins/install/views/install/index.ctp:43
 msgid "Your config directory is NOT writable."
-msgstr "Ihr config-Verzeichnis ist NICHT beschreibbar"
+msgstr "Your config directory is NOT writable."
 
 #: /plugins/install/views/install/index.ctp:48
 msgid "PHP version %s > 5"
-msgstr ""
+msgstr "PHP version %s > 5"
 
 #: /plugins/install/views/install/index.ctp:51
 msgid "PHP version %s < 5"
-msgstr ""
+msgstr "PHP version %s < 5"
+
+#: /plugins/install/views/install/index.ctp:55
+msgid "Click here to begin installation"
+msgstr "Click here to begin installation"
 
 #: /plugins/install/views/install/index.ctp:57
 msgid "Installation cannot continue as minimum requirements are not met."
-msgstr "Installation kann nicht durchgeführt werden. Ihre Umgebung unterstützt nicht die Minimumanforderungen"
+msgstr "Installation cannot continue as minimum requirements are not met."
 
 #: /plugins/js_validate/controllers/js_validate_controller.php:33;39
 #: /webroot/test.php:88
 msgid "Debug setting does not allow access to this url."
-msgstr ""
+msgstr "Debug setting does not allow access to this url."
 
 #: /plugins/js_validate/views/helpers/validation.php:71
 msgid "There was a problem with the field"
-msgstr "Es gab ein Problem mit diesem Feld."
+msgstr "There was a problem with the field"
 
 #: /plugins/js_validate/views/layouts/default.ctp:30
 msgid "CakePHP: the rapid development php framework:"
-msgstr ""
+msgstr "CakePHP: the rapid development php framework:"
 
 #: /plugins/js_validate/views/layouts/default.ctp:45;56
 msgid "CakePHP: the rapid development php framework"
-msgstr ""
+msgstr "CakePHP: the rapid development php framework"
 
 #: /plugins/media/vendors/shells/media.php:94
 #: /views/layouts/default_marker.ctp:65
 #: /views/layouts/default_page.ctp:63
 #: /views/layouts/default_splash.ctp:63
 msgid "What would you like to do?"
-msgstr "Was möchten Sie tun?"
+msgstr "What would you like to do?"
 
 #: /plugins/media/views/elements/attachments.ctp:59
 msgid "%s"
@@ -571,75 +638,75 @@ msgstr "%s"
 
 #: /plugins/media/views/elements/attachments.ctp:70
 msgid "File"
-msgstr "Datei"
+msgstr "File"
 
 #: /plugins/media/views/elements/attachments.ctp:73
 msgid "An error occured while transferring the file."
-msgstr "Bei der Dateiübertragung ist ein Fehler aufgetreten."
+msgstr "An error occured while transferring the file."
 
 #: /plugins/media/views/elements/attachments.ctp:74
 msgid "The file is invalid."
-msgstr "Die Datei ist ungültig."
+msgstr "The file is invalid."
 
 #: /plugins/media/views/elements/attachments.ctp:75
 msgid "The file cannot be processed."
-msgstr "Diese Datei kann nicht ausgeführt werden."
+msgstr "The file cannot be processed."
 
 #: /plugins/media/views/elements/attachments.ctp:76
 msgid "The file cannot be transferred from or to location."
-msgstr "Die Datei kann nicht übertragen werden."
+msgstr "The file cannot be transferred from or to location."
 
 #: /plugins/media/views/elements/attachments.ctp:77
 msgid "Executable files cannot be uploaded."
-msgstr "Ausführbare Dateien können nicht hochgeladen werden."
+msgstr "Executable files cannot be uploaded."
 
 #: /plugins/media/views/elements/attachments.ctp:78;79
 msgid "The file is too large."
-msgstr "Die Datei ist zu groß."
+msgstr "The file is too large."
 
 #: /plugins/media/views/elements/attachments.ctp:80
 msgid "The file has the wrong extension."
-msgstr "Das Dateiformat ist ungültig."
+msgstr "The file has the wrong extension."
 
 #: /plugins/media/views/elements/attachments.ctp:81
 msgid "The file has the wrong MIME type."
-msgstr ""
+msgstr "The file has the wrong MIME type."
 
 #: /plugins/media/views/elements/attachments.ctp:84
 msgid "Textual replacement"
-msgstr "Was sieht man auf dem Foto?"
+msgstr "Textual replacement"
 
 #: /plugins/media/views/elements/attachments.ctp:86
 msgid "A textual replacement must be provided."
-msgstr "Ein alternativer Text muss angegeben werden"
+msgstr "A textual replacement must be provided."
 
 #: /plugins/media/views/elements/attachments.ctp:129
 msgid "Release"
-msgstr "Löschen"
+msgstr "Release"
 
 #: /plugins/rating/config/plugin_rating.php:31
 msgid "Your rating has been saved."
-msgstr "Ihre Stimme wurde gespeichert."
+msgstr "Your rating has been saved."
 
 #: /plugins/rating/config/plugin_rating.php:172
 msgid "Please log in first"
-msgstr "Bitte zunächst anmelden."
+msgstr "Please log in first"
 
 #: /plugins/rating/config/plugin_rating.php:173
 msgid "Thank you for voting"
-msgstr "Danke für's Abstimmen."
+msgstr "Thank you for voting"
 
 #: /plugins/rating/config/plugin_rating.php:174
 msgid "Click to undo rating"
-msgstr "Klicken Sie hier, um die Stimme zurückzunehmen."
+msgstr "Click to undo rating"
 
 #: /plugins/rating/config/plugin_rating.php:175
 msgid "Who cares!"
-msgstr "Wen interessiert das?"
+msgstr "Who cares!"
 
 #: /plugins/rating/config/plugin_rating.php:176
 msgid "Very unimportant"
-msgstr "Eher unwichtig"
+msgstr "Very unimportant"
 
 #: /plugins/rating/config/plugin_rating.php:177
 msgid "Relevant"
@@ -647,75 +714,75 @@ msgstr "Relevant"
 
 #: /plugins/rating/config/plugin_rating.php:178
 msgid "Important"
-msgstr "Wichtig"
+msgstr "Important"
 
 #: /plugins/rating/config/plugin_rating.php:179
 msgid "Hot spot!"
-msgstr "Brennpunkt"
+msgstr "Hot spot!"
 
 #: /plugins/rating/config/plugin_rating.php:181
 #: /views/markers/view.ctp:154
 #: /views/markers/mobile/preview.ctp:81
 #: /views/markers/mobile/view.ctp:77
 msgid "Please rate this Marker"
-msgstr "Bewerten Sie den Beitrag!"
+msgstr "Please rate this Marker"
 
 #: /plugins/rating/controllers/ratings_controller.php:137
 msgid "Vote(s)"
-msgstr "Stimmen"
+msgstr "Vote(s)"
 
 #: /plugins/rating/views/helpers/rating.php:56
 msgid "Rate it with "
-msgstr "Bewerten mit"
+msgstr "Rate it with "
 
 #: /plugins/rating/views/ratings/view.ctp:36
 #: /plugins/voting/views/votings/view.ctp:12
 msgid "Your are guest and not allowed to vote here"
-msgstr "Bitte melden Sie sich an, um eine Stimme abzugeben"
+msgstr "Your are guest and not allowed to vote here"
 
 #: /plugins/rating/views/ratings/view.ctp:76;78
 msgid "Vote"
-msgstr "Abstimmung"
+msgstr "Vote"
 
-#: /plugins/voting/config/plugin_voting.php:24
+#: /plugins/voting/config/plugin_voting.php:35
 msgid "Thank you for voting."
-msgstr "Danke für Ihre Stimme."
+msgstr "Thank you for voting."
 
-#: /plugins/voting/config/plugin_voting.php:57
+#: /plugins/voting/config/plugin_voting.php:68
 msgid "Vote Yes"
-msgstr "Pro"
+msgstr "Vote Yes"
 
-#: /plugins/voting/config/plugin_voting.php:58
+#: /plugins/voting/config/plugin_voting.php:69
 msgid "Yes"
-msgstr "Pro"
+msgstr "Yes"
 
-#: /plugins/voting/config/plugin_voting.php:61
+#: /plugins/voting/config/plugin_voting.php:72
 msgid "Vote No"
-msgstr "Kontra"
+msgstr "Vote No"
 
-#: /plugins/voting/config/plugin_voting.php:62
+#: /plugins/voting/config/plugin_voting.php:73
 msgid "No"
-msgstr "Kontra"
+msgstr "No"
 
-#: /plugins/voting/config/plugin_voting.php:65;66
+#: /plugins/voting/config/plugin_voting.php:76;77
 msgid "Abstain"
-msgstr "Neutral"
+msgstr "Abstain"
 
-#: /plugins/voting/config/plugin_voting.php:98
+#: /plugins/voting/config/plugin_voting.php:109
 msgid "We got #VOTES# vote(s) for this Marker."
-msgstr "#VOTES# Stimmen für diesen Vorschlag"
+msgstr "We got #VOTES# vote(s) for this Marker."
 
-#: /plugins/voting/config/plugin_voting.php:110
+#: /plugins/voting/config/plugin_voting.php:121
 msgid "%VOTES%%"
 msgstr "%VOTES%%"
 
 #: /plugins/voting/views/demo/index.ctp:12
 msgid "Do you like this plugin?"
-msgstr ""
+msgstr "ç"
 
 #: /plugins/voting/views/demo/index.ctp:26
 msgid "Do you really like this plugin?"
-msgstr ""
+msgstr "ç"
 
 #: /views/categories/admin_add.ctp:42
 #: /views/categories/admin_edit.ctp:42
@@ -723,16 +790,16 @@ msgstr ""
 #: /views/categories/admin_view.ctp:42
 #: /views/elements/admin_sidebar.ctp:24
 msgid "Categories"
-msgstr "Kategorien"
+msgstr "Categories"
 
 #: /views/categories/admin_add.ctp:49
 #: /views/markers/edit.ctp:43
 msgid "Edit details"
-msgstr "Details bearbeiten"
+msgstr "Edit details"
 
 #: /views/categories/admin_add.ctp:69;73
 msgid "Add Category"
-msgstr "Kategorie hinzufügen"
+msgstr "Add Category"
 
 #: /views/categories/admin_add.ctp:84
 #: /views/elements/form_add_edit_admin.ctp:15
@@ -740,57 +807,57 @@ msgstr "Kategorie hinzufügen"
 #: /views/markers/mobile/add.ctp:98
 #: /views/markers/mobile/startup.ctp:100
 msgid "<div>Please take a look at the categories</div>"
-msgstr "<div>Bitte wählen Sie eine der Kategorien</div>"
+msgstr "<div>Please take a look at the categories</div>"
 
 #: /views/categories/admin_add.ctp:84
 #: /views/elements/admin_sidebar.ctp:26
 #: /views/users/admin_view.ctp:59
 #: /views/users/newpassword.ctp:51
 msgid "User"
-msgstr "Benutzer"
+msgstr "User"
 
 #: /views/categories/admin_add.ctp:84
 #: /views/categories/admin_edit.ctp:78
 #: /views/elements/form_add_edit_admin.ctp:15
 #: /views/elements/form_startup.ctp:15
-#: /views/markers/admin_edit.ctp:110
+#: /views/markers/admin_edit.ctp:113
 #: /views/markers/mobile/add.ctp:98
 #: /views/markers/mobile/startup.ctp:100
 #: /views/twitter/admin_index.ctp:113;117
 msgid "Please choose"
-msgstr "Auswahl"
+msgstr "Please choose"
 
 #: /views/categories/admin_edit.ctp:49;69
 #: /views/categories/admin_view.ctp:69
 msgid "Edit Category"
-msgstr "Kategorie bearbeiten"
+msgstr "Edit Category"
 
 #: /views/categories/admin_edit.ctp:74
 msgid "Category Name"
-msgstr "Kategorie Bezeichnung"
+msgstr "Category Name"
 
 #: /views/categories/admin_edit.ctp:75
 msgid "Category Hex"
-msgstr "Kategorie Farbe"
+msgstr "Category Hex"
 
 #: /views/categories/admin_edit.ctp:77
 msgid "Parent category"
-msgstr "Oberkategorie"
+msgstr "Parent category"
 
 #: /views/categories/admin_edit.ctp:78
 msgid "<div>Please choose the owner of category</div>"
-msgstr "<div>Bitte wählen Sie den Verantwortlichen der Kategorie</div>"
+msgstr "<div>Please choose the owner of category</div>"
 
 #: /views/categories/admin_edit.ctp:78
 msgid "E-Mail-Adress"
-msgstr "E-Mail Adresse"
+msgstr "E-Mail-Adress"
 
 #: /views/categories/admin_index.ctp:62
 msgid "Admin Categories"
-msgstr "Kategorien administrieren"
+msgstr "Admin Categories"
 
 #: /views/categories/admin_index.ctp:69
-#: /views/markers/ajaxlist.ctp:149;224
+#: /views/markers/ajaxlist.ctp:125;200
 #: /views/markers/app.ctp:100
 #: /views/markers/liste.ctp:113
 #: /views/markers/preview.ctp:93
@@ -799,34 +866,19 @@ msgstr "Kategorien administrieren"
 #: /views/markers/mobile/view.ctp:154
 #: /views/users/admin_index.ctp:142;183
 msgid "edit"
-msgstr "Bearbeiten"
+msgstr "edit"
 
 #: /views/categories/admin_index.ctp:70
 msgid "up"
-msgstr "nach oben"
+msgstr "up"
 
 #: /views/categories/admin_index.ctp:71
 msgid "down"
-msgstr "nach unten"
-
-#: /views/categories/admin_index.ctp:72
-#: /views/markers/admin_edit.ctp:80
-#: /views/markers/ajaxlist.ctp:230
-#: /views/markers/app.ctp:104
-#: /views/markers/edit.ctp:78
-#: /views/markers/liste.ctp:117
-#: /views/markers/preview.ctp:107
-#: /views/markers/view.ctp:97
-#: /views/markers/mobile/preview.ctp:165
-#: /views/markers/mobile/view.ctp:160
-#: /views/pages/admin_index.ctp:79
-#: /views/users/admin_index.ctp:189
-msgid "delete"
-msgstr "Löschen"
+msgstr "down"
 
 #: /views/categories/admin_view.ctp:49
 msgid "View Category"
-msgstr "Kategorie ansehen"
+msgstr "View Category"
 
 #: /views/categories/admin_view.ctp:71
 #: /views/comments/view.ctp:5
@@ -835,25 +887,25 @@ msgstr "Kategorie ansehen"
 #: /views/statuses/view.ctp:7
 #: /views/users/admin_view.ctp:63;137;189;269;313
 msgid "Id"
-msgstr "ID"
+msgstr "Id"
 
 #: /views/categories/admin_view.ctp:76
 #: /views/statuses/admin_view.ctp:12
 #: /views/statuses/view.ctp:12
 msgid "Parent Id"
-msgstr "Elternkategorie ID"
+msgstr "Parent Id"
 
 #: /views/categories/admin_view.ctp:81
 #: /views/statuses/admin_view.ctp:17
 #: /views/statuses/view.ctp:17
 msgid "Lft"
-msgstr "Links"
+msgstr "Lft"
 
 #: /views/categories/admin_view.ctp:86
 #: /views/statuses/admin_view.ctp:22
 #: /views/statuses/view.ctp:22
 msgid "Rght"
-msgstr "Rechts"
+msgstr "Rght"
 
 #: /views/categories/admin_view.ctp:91
 #: /views/districts/view.ctp:22
@@ -869,15 +921,15 @@ msgstr "Name"
 #: /views/statuses/admin_view.ctp:32
 #: /views/statuses/view.ctp:32
 msgid "Hex"
-msgstr "Farbe (Hex)"
+msgstr "Hex"
 
 #: /views/categories/admin_view.ctp:105
 msgid "Edit Cat"
-msgstr "Kategorien bearbeiten"
+msgstr "Edit Cat"
 
 #: /views/categories/admin_view.ctp:106
 msgid "Delete Cat"
-msgstr "Kategorie löschen"
+msgstr "Delete Cat"
 
 #: /views/categories/admin_view.ctp:106
 #: /views/comments/edit.ctp:17
@@ -894,27 +946,27 @@ msgstr "Kategorie löschen"
 #: /views/statuses/view.ctp:42
 #: /views/users/admin_view.ctp:119;171;251;295;335
 msgid "Are you sure you want to delete # %s?"
-msgstr "Sicher, dass Sie # %s löschen wollen?"
+msgstr "Are you sure you want to delete # %s?"
 
 #: /views/categories/admin_view.ctp:107
 msgid "List Categories"
-msgstr "Kategorien anzeigen"
+msgstr "List Categories"
 
 #: /views/categories/admin_view.ctp:108
 msgid "New Cat"
-msgstr "Neue Kategorie"
+msgstr "New Cat"
 
 #: /views/comments/add.ctp:4
 #: /views/elements/form_comments.ctp:31
 msgid "Add Comment"
-msgstr "Kommentar hinzufügen"
+msgstr "Add Comment"
 
 #: /views/comments/add.ctp:16
 #: /views/comments/edit.ctp:18
 #: /views/comments/view.ctp:46
 #: /views/users/admin_view.ctp:122
 msgid "List Comments"
-msgstr "Kommentare anzeigen"
+msgstr ""
 
 #: /views/comments/add.ctp:17
 #: /views/comments/edit.ctp:19
@@ -928,7 +980,7 @@ msgstr "Kommentare anzeigen"
 #: /views/elements/navigation_footer.ctp:4
 #: /views/users/admin_view.ctp:124
 msgid "List Markers"
-msgstr "Liste"
+msgstr ""
 
 #: /views/comments/add.ctp:18
 #: /views/comments/edit.ctp:20
@@ -940,48 +992,34 @@ msgstr "Liste"
 #: /views/districts/view.ctp:56
 #: /views/users/admin_view.ctp:125;260
 msgid "New Marker"
-msgstr "Neues Anliegen"
+msgstr ""
 
 #: /views/comments/edit.ctp:4
 #: /views/comments/view.ctp:44
 msgid "Edit Comment"
-msgstr "Kommentar bearbeiten"
-
-#: /views/comments/edit.ctp:17
-#: /views/comments/index.ctp:56
-#: /views/districts/edit.ctp:18
-#: /views/districts/index.ctp:60
-#: /views/statuses/admin_edit.ctp:18
-#: /views/statuses/admin_index.ctp:52
-#: /views/statuses/edit.ctp:18
-#: /views/statuses/index.ctp:52
-#: /views/users/admin_view.ctp:171;251;295;335
-#: /plugins/configurator/views/configurations/admin_index.ctp:71
-#: /plugins/configurator/views/configurations/admin_view.ctp:75
-msgid "Delete"
-msgstr "Löschen"
+msgstr ""
 
 #: /views/comments/index.ctp:2
 #: /views/elements/form_comments.ctp:1
 #: /views/elements/infofooter.ctp:10
-#: /views/markers/admin_edit.ctp:154
+#: /views/markers/admin_edit.ctp:157
 #: /views/pages/admin_index.ctp:153
 msgid "Comments"
-msgstr "Kommentare"
+msgstr ""
 
 #: /views/comments/index.ctp:9
 #: /views/districts/index.ctp:9
 #: /views/statuses/admin_index.ctp:9
 #: /views/statuses/index.ctp:9
-#: /views/users/admin_index.ctp:210
-#: /plugins/configurator/views/configurations/admin_index.ctp:76
+#: /views/users/admin_index.ctp:217
+#: /plugins/configurator/views/configurations/admin_index.ctp:109
 msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
-msgstr "Seite %page% von %pages% zeigt %current% Einträge von insgesamt %count%, beginnend mit Eintrag %start%, endend mit %start%"
+msgstr ""
 
 #: /views/comments/index.ctp:21
 #: /views/districts/index.ctp:22
 #: /views/markers/admin_edit.ctp:70
-#: /views/markers/ajaxlist.ctp:166
+#: /views/markers/ajaxlist.ctp:142
 #: /views/markers/edit.ctp:68
 #: /views/markers/preview.ctp:88
 #: /views/markers/view.ctp:78
@@ -989,71 +1027,50 @@ msgstr "Seite %page% von %pages% zeigt %current% Einträge von insgesamt %count%
 #: /views/statuses/index.ctp:20
 #: /views/users/admin_index.ctp:153
 #: /views/users/admin_view.ctp:116;147;213;275;317
-#: /plugins/configurator/views/configurations/admin_index.ctp:47;85
-#: /plugins/configurator/views/configurations/admin_view.ctp:72
-msgid "Actions"
-msgstr "Aktionen"
-
-#: /views/comments/index.ctp:54
-#: /views/districts/index.ctp:58
-#: /views/markers/admin_edit.ctp:74;76
-#: /views/markers/edit.ctp:72;74
-#: /views/statuses/admin_index.ctp:50
-#: /views/statuses/index.ctp:50
-#: /views/users/admin_view.ctp:169;249;293;333
-#: /plugins/configurator/views/configurations/admin_index.ctp:69
-msgid "View"
-msgstr "Ansehen"
-
-#: /views/comments/index.ctp:55
-#: /views/districts/index.ctp:59
-#: /views/statuses/admin_index.ctp:51
-#: /views/statuses/index.ctp:51
-#: /views/users/admin_view.ctp:170;250;294;334
-#: /plugins/configurator/views/configurations/admin_index.ctp:70
+#: /plugins/configurator/views/configurations/admin_index.ctp:51;105
 #: /plugins/configurator/views/configurations/admin_view.ctp:74
-msgid "Edit"
-msgstr "Bearbeiten"
+msgid "Actions"
+msgstr ""
 
 #: /views/comments/index.ctp:63
 #: /views/districts/index.ctp:67
 #: /views/statuses/admin_index.ctp:59
 #: /views/statuses/index.ctp:59
 msgid "Previous"
-msgstr "Vorherige Seite"
+msgstr ""
 
 #: /views/comments/index.ctp:65
 #: /views/districts/index.ctp:69
 #: /views/statuses/admin_index.ctp:61
 #: /views/statuses/index.ctp:61
-#: /views/users/admin_index.ctp:218
-#: /plugins/configurator/views/configurations/admin_index.ctp:81
+#: /views/users/admin_index.ctp:225
+#: /plugins/configurator/views/configurations/admin_index.ctp:114
 msgid "next"
-msgstr "Nächste"
+msgstr ""
 
 #: /views/comments/index.ctp:69
 #: /views/comments/view.ctp:47
 #: /views/users/admin_view.ctp:123;180
 msgid "New Comment"
-msgstr "Neuer Kommentar"
+msgstr ""
 
 #: /views/comments/view.ctp:2;20
-#: /views/markers/admin_edit.ctp:139
+#: /views/markers/admin_edit.ctp:142
 #: /views/users/admin_view.ctp:143
 msgid "Comment"
-msgstr "Kommentar"
+msgstr ""
 
 #: /views/comments/view.ctp:10
 #: /views/districts/view.ctp:17
 msgid "Marker"
-msgstr "Marker"
+msgstr ""
 
 #: /views/comments/view.ctp:15
 msgid "Title"
-msgstr "Titel"
+msgstr ""
 
 #: /views/comments/view.ctp:25
-#: /views/markers/ajaxlist.ctp:156
+#: /views/markers/ajaxlist.ctp:132
 #: /views/markers/app.ctp:74
 #: /views/markers/liste.ctp:81
 #: /views/markers/preview.ctp:122
@@ -1064,98 +1081,98 @@ msgstr "Titel"
 #: /views/statuses/view.ctp:2
 #: /views/users/admin_view.ctp:144
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #: /views/comments/view.ctp:30
 #: /views/districts/view.ctp:37
 #: /views/users/admin_view.ctp:103;145;203;273;315
-#: /plugins/configurator/views/configurations/admin_view.ctp:54
+#: /plugins/configurator/views/configurations/admin_view.ctp:56
 msgid "Created"
-msgstr "Erstellt"
+msgstr ""
 
 #: /views/comments/view.ctp:35
 #: /views/districts/view.ctp:42
-#: /views/markers/ajaxlist.ctp:162
+#: /views/markers/ajaxlist.ctp:138
 #: /views/markers/app.ctp:76
 #: /views/markers/liste.ctp:83
 #: /views/users/admin_view.ctp:108;146;204;274;316
-#: /plugins/configurator/views/configurations/admin_view.ctp:59
+#: /plugins/configurator/views/configurations/admin_view.ctp:61
 msgid "Modified"
-msgstr "Geändert"
+msgstr ""
 
 #: /views/comments/view.ctp:45
 msgid "Delete Comment"
-msgstr "Kommentar löschen"
+msgstr ""
 
 #: /views/districts/add.ctp:4
 msgid "Add District"
-msgstr "Bezirk hinzufügen"
+msgstr ""
 
 #: /views/districts/add.ctp:17
 #: /views/districts/edit.ctp:19
 #: /views/districts/view.ctp:53
 msgid "List Districts"
-msgstr "Bezirke anzeigen"
+msgstr ""
 
 #: /views/districts/edit.ctp:4
 #: /views/districts/view.ctp:51
 msgid "Edit District"
-msgstr "Bezirk bearbeiten"
+msgstr ""
 
 #: /views/districts/index.ctp:2
 msgid "Districts"
-msgstr "Bezirke"
+msgstr ""
 
 #: /views/districts/index.ctp:73
 #: /views/districts/view.ctp:54
 msgid "New District"
-msgstr "Neuer Bezirk"
+msgstr ""
 
 #: /views/districts/view.ctp:2
 #: /views/markers/app.ctp:73
 #: /views/markers/liste.ctp:80
 msgid "District"
-msgstr "Bezirk"
+msgstr ""
 
 #: /views/districts/view.ctp:12
 msgid "City Id"
-msgstr "Stadt"
+msgstr ""
 
 #: /views/districts/view.ctp:27
 #: /views/users/admin_view.ctp:201
 msgid "Lat"
-msgstr "Lat"
+msgstr ""
 
 #: /views/districts/view.ctp:32
 #: /views/users/admin_view.ctp:202
 msgid "Lon"
-msgstr "Lon"
+msgstr ""
 
 #: /views/districts/view.ctp:52
 msgid "Delete District"
-msgstr "Bezirk löschen"
+msgstr ""
 
 #: /views/elements/admin_sidebar.ctp:3
 #: /views/elements/infofooter.ctp:6
 #: /views/markers/app.ctp:162
 msgid "Markers"
-msgstr "Anliegen"
+msgstr ""
 
 #: /views/elements/admin_sidebar.ctp:5
 msgid "Users"
-msgstr "Benutzer"
+msgstr ""
 
 #: /views/elements/admin_sidebar.ctp:8
 #: /views/elements/navigation.ctp:8
 #: /views/elements/navigation_footer.ctp:6
 msgid "Your markers"
-msgstr "Ihre Anliegen"
+msgstr ""
 
 #: /views/elements/admin_sidebar.ctp:10
 #: /views/elements/navigation.ctp:10
 #: /views/elements/navigation_footer.ctp:7
 msgid "Add another marker"
-msgstr "Anliegen melden"
+msgstr ""
 
 #: /views/elements/admin_sidebar.ctp:14
 #: /views/elements/navigation.ctp:14
@@ -1167,47 +1184,47 @@ msgstr "Anliegen melden"
 #: /views/pages/mobile/display.ctp:24
 #: /views/users/newpassword.ctp:62
 msgid "Add a marker"
-msgstr "Anliegen melden"
+msgstr ""
 
 #: /views/elements/admin_sidebar.ctp:28
 msgid "Twitter"
-msgstr "Twitter"
+msgstr ""
 
 #: /views/elements/admin_sidebar.ctp:41
 #: /views/elements/navigation.ctp:51
 #: /views/elements/navigation_footer.ctp:20
 #: /views/elements/welcome.ctp:28
 msgid "Facebook logout"
-msgstr "Facebook abmelden"
+msgstr ""
 
 #: /views/elements/admin_sidebar.ctp:43
 #: /views/elements/navigation.ctp:46;54
 #: /views/elements/navigation_footer.ctp:22
 #: /views/markers/mobile/index.ctp:64
 msgid "Log out"
-msgstr "Abmelden"
+msgstr ""
 
 #: /views/elements/form_add_edit_admin.ctp:6
 #: /views/elements/form_startup.ctp:2
 msgid "<div>Enter a short subject</div>"
-msgstr "<div>Geben Sie einen kurzen Titel ein, z.B. \"Gullideckel fehlt\"</div>"
+msgstr ""
 
 #: /views/elements/form_add_edit_admin.ctp:6
 #: /views/elements/form_startup.ctp:2
 #: /views/markers/admin_edit.ctp:94
-#: /views/markers/ajaxlist.ctp:154
+#: /views/markers/ajaxlist.ctp:130
 #: /views/markers/app.ctp:71
 #: /views/markers/liste.ctp:78
 #: /views/markers/mobile/add.ctp:74
 #: /views/markers/mobile/startup.ctp:76
 #: /views/users/admin_view.ctp:195
 msgid "Subject"
-msgstr "Betrifft"
+msgstr ""
 
 #: /views/elements/form_add_edit_admin.ctp:7
 #: /views/elements/form_startup.ctp:3
 msgid "<div>Enter address or drag marker</div>"
-msgstr "<div>Bitte Straße und Hausnummer eingeben, oder das Fähnchen an die korrekte Position ziehen.</div>"
+msgstr ""
 
 #: /views/elements/form_add_edit_admin.ctp:7
 #: /views/elements/form_startup.ctp:3
@@ -1221,7 +1238,7 @@ msgstr "<div>Bitte Straße und Hausnummer eingeben, oder das Fähnchen an die ko
 #: /views/markers/mobile/startup.ctp:54
 #: /views/markers/mobile/view.ctp:65
 msgid "Address"
-msgstr "Adresse"
+msgstr ""
 
 #: /views/elements/form_add_edit_admin.ctp:9
 #: /views/elements/form_startup.ctp:4
@@ -1230,7 +1247,7 @@ msgstr "Adresse"
 #: /views/markers/mobile/startup.ctp:60
 #: /views/users/admin_view.ctp:199
 msgid "Zip"
-msgstr "Postleitzahl"
+msgstr ""
 
 #: /views/elements/form_add_edit_admin.ctp:11
 #: /views/elements/form_startup.ctp:6
@@ -1239,18 +1256,18 @@ msgstr "Postleitzahl"
 #: /views/markers/mobile/startup.ctp:67
 #: /views/users/admin_view.ctp:200
 msgid "City"
-msgstr "Stadt "
+msgstr ""
 
 #: /views/elements/form_add_edit_admin.ctp:13
 #: /views/elements/form_startup.ctp:8
 #: /views/markers/mobile/add.ctp:81
 #: /views/markers/mobile/startup.ctp:83
 msgid "Describe the situation"
-msgstr "Beschreiben Sie kurz die Situation:"
+msgstr ""
 
 #: /views/elements/form_add_edit_admin.ctp:15
 #: /views/elements/form_startup.ctp:15
-#: /views/markers/admin_edit.ctp:110
+#: /views/markers/admin_edit.ctp:113
 #: /views/markers/app.ctp:72
 #: /views/markers/liste.ctp:79
 #: /views/markers/preview.ctp:118
@@ -1260,20 +1277,21 @@ msgstr "Beschreiben Sie kurz die Situation:"
 #: /views/markers/mobile/startup.ctp:100
 #: /views/markers/mobile/view.ctp:50
 msgid "Category"
-msgstr "Kategorie"
+msgstr ""
 
 #: /views/elements/form_add_edit_admin.ctp:17
 #: /views/elements/form_startup.ctp:9
+#: /views/markers/admin_edit.ctp:106
 msgid "Add some images or media?"
-msgstr "Bild hinzufügen?"
+msgstr ""
 
 #: /views/elements/form_comments.ctp:22
 msgid "wrote"
-msgstr "eingetragen von"
+msgstr ""
 
 #: /views/elements/form_comments.ctp:22
 msgid "on"
-msgstr "am"
+msgstr ""
 
 #: /views/elements/form_comments.ctp:37;40
 #: /views/elements/form_startup.ctp:20
@@ -1281,32 +1299,32 @@ msgstr "am"
 #: /views/users/admin_view.ctp:83
 #: /views/users/signup.ctp:56
 msgid "Nickname"
-msgstr "Pseudonym"
+msgstr ""
 
 #: /views/elements/form_comments.ctp:38;41
 msgid "email"
-msgstr "E-Mail Adresse"
+msgstr ""
 
 #: /views/elements/form_comments.ctp:43
 msgid "comment"
-msgstr "Kommentar"
+msgstr ""
 
 #: /views/elements/form_comments.ctp:44
 #: /views/users/resetpassword.ctp:52
 #: /views/users/signup.ctp:74
 msgid "<div>To prevent spammers, please calculate:</div>"
-msgstr "<div>Spam-Schutz: Bitte rechnen Sie folgende Aufgabe:</div>"
+msgstr ""
 
 #: /views/elements/form_comments.ctp:50
 msgid "Save Comment"
-msgstr "Kommentar speichern"
+msgstr ""
 
 #: /views/elements/form_startup.ctp:19
 #: /views/markers/mobile/startup.ctp:109
 #: /views/users/login.ctp:60
 #: /views/users/mobile/login.ctp:39
 msgid "E-Mail"
-msgstr "E-Mail Adresse"
+msgstr ""
 
 #: /views/elements/form_startup.ctp:21
 #: /views/markers/mobile/startup.ctp:115
@@ -1315,52 +1333,52 @@ msgstr "E-Mail Adresse"
 #: /views/users/signup.ctp:61
 #: /views/users/mobile/login.ctp:40
 msgid "Password"
-msgstr "Passwort"
+msgstr ""
 
 #: /views/elements/form_startup.ctp:22
 #: /views/markers/mobile/startup.ctp:117
 msgid "Password Repeat"
-msgstr "Passwort wiederholen"
+msgstr ""
 
 #: /views/elements/form_startup.ctp:23
 #: /views/users/signup.ctp:63
 msgid "Want to tell us more about you?"
-msgstr "Freiwillige Angaben"
+msgstr ""
 
 #: /views/elements/form_startup.ctp:26
 #: /views/users/admin_view.ctp:93
 #: /views/users/signup.ctp:66
 msgid "Sirname"
-msgstr "Nachname"
+msgstr ""
 
 #: /views/elements/form_startup.ctp:28
 #: /views/users/signup.ctp:68
 msgid "Phone"
-msgstr "Telefonnummer"
+msgstr ""
 
 #: /views/elements/infofooter.ctp:7
 msgid "within the last 30 days"
-msgstr "in den letzten 30 Tagen"
+msgstr ""
 
 #: /views/elements/infofooter.ctp:8
 msgid "current"
-msgstr "zur Zeit"
+msgstr ""
 
 #: /views/elements/infofooter.ctp:8
 msgid "open Markers"
-msgstr "offene Anliegen"
+msgstr ""
 
 #: /views/elements/infofooter.ctp:9
 msgid "overall"
-msgstr "insgesamt"
+msgstr ""
 
 #: /views/elements/infofooter.ctp:13
 msgid "Software:"
-msgstr "Software:"
+msgstr ""
 
 #: /views/elements/navigation.ctp:3
 msgid "All Content in a Map,Filter in Categories or view Ratings"
-msgstr "Alle Beträge in der Karte betrachten, nach Kategorien filtern und andere Auswertungsmöglichkeiten"
+msgstr ""
 
 #: /views/elements/navigation.ctp:3
 #: /views/markers/add.ctp:36
@@ -1376,114 +1394,110 @@ msgstr "Alle Beträge in der Karte betrachten, nach Kategorien filtern und ander
 #: /views/pages/faq.ctp:27
 #: /views/pages/imprint.ctp:27
 msgid "Map"
-msgstr "Karte"
+msgstr ""
 
 #: /views/elements/navigation.ctp:5
 msgid "View all Markers in List view"
-msgstr "Anliegen als  Liste ansehen"
+msgstr ""
 
 #: /views/elements/navigation.ctp:8
 msgid "View Markers in List view"
-msgstr "Alle Beiträge als Liste"
+msgstr ""
 
 #: /views/elements/navigation.ctp:10
 #: /views/markers/startup.ctp:41;61
 msgid "Add a Marker"
-msgstr "Einen Anliegen melden"
+msgstr ""
 
 #: /views/elements/navigation.ctp:14
 msgid "Participate by clicking on the map and add some content"
-msgstr "Beteiligen Sie sich! Punkt auf der Karte klicken oder direkt Adresse in das Formular eingeben"
-
-#: /views/elements/navigation.ctp:20
-msgid "Admin"
-msgstr "Benutzer administrieren"
+msgstr ""
 
 #: /views/elements/navigation.ctp:30
 msgid "Already signed up or have a Twitter or Facebook Account?"
-msgstr "Besitzen Sie einen Facebook- oder Twitter-Account? Dann melden Sie sich über diese beiden sozialen Netzwerke auf dieser Plattform an."
+msgstr ""
 
 #: /views/elements/navigation_footer.ctp:3
 msgid "View markers in map"
-msgstr "Anliegen in der Karte ansehen"
+msgstr ""
 
 #: /views/elements/search.ctp:3
 msgid "Search in Mas-City"
-msgstr "Suche in Mas-City"
+msgstr ""
 
 #: /views/elements/search.ctp:11
 #: /views/markers/search.ctp:78
 msgid "Search"
-msgstr "Suche"
+msgstr ""
 
 #: /views/elements/search.ctp:12
 msgid "search"
-msgstr "suchen"
+msgstr ""
 
 #: /views/elements/welcome.ctp:24
 msgid "You are logged in as "
-msgstr "Sie sind angemeldet als "
+msgstr ""
 
 #: /views/elements/welcome.ctp:30
 msgid "log out"
-msgstr "abmelden"
+msgstr ""
 
 #: /views/elements/welcome.ctp:34
 msgid "Welcome visitor, "
-msgstr "Willkommen, "
+msgstr ""
 
 #: /views/elements/welcome.ctp:35
 msgid "please log in"
-msgstr "bitte melden Sie sich an!"
+msgstr ""
 
 #: /views/layouts/default_install.ctp:18
 #: /views/layouts/default_marker.ctp:23
 #: /views/layouts/default_page.ctp:23
 #: /views/layouts/default_splash.ctp:23
 msgid "Skiplinks: Jump to "
-msgstr "Springe zu "
+msgstr ""
 
 #: /views/layouts/default_install.ctp:18
 #: /views/layouts/default_marker.ctp:23
 #: /views/layouts/default_page.ctp:23
 #: /views/layouts/default_splash.ctp:23
 msgid "Skiplinks: Navigation"
-msgstr "Navigation"
+msgstr ""
 
 #: /views/layouts/default_install.ctp:18
 #: /views/layouts/default_marker.ctp:23
 #: /views/layouts/default_page.ctp:23
 #: /views/layouts/default_splash.ctp:23
 msgid "Skiplinks: Content"
-msgstr "Inhalte / Karte"
+msgstr ""
 
 #: /views/layouts/default_install.ctp:18
 #: /views/layouts/default_marker.ctp:23
 #: /views/layouts/default_page.ctp:23
 #: /views/layouts/default_splash.ctp:23
 msgid "Skiplinks: Sidebar"
-msgstr "Auswahl, Fotos, Karte"
+msgstr ""
 
 #: /views/layouts/default_install.ctp:18
 #: /views/layouts/default_marker.ctp:23
 #: /views/layouts/default_page.ctp:23
 #: /views/layouts/default_splash.ctp:23
 msgid "Skiplinks: Footer"
-msgstr "Footer"
+msgstr ""
 
 #: /views/layouts/default_install.ctp:43
 #: /views/layouts/default_marker.ctp:54
 #: /views/layouts/default_page.ctp:52
 #: /views/layouts/default_splash.ctp:52
 msgid "Meta"
-msgstr "Über diese Plattform"
+msgstr ""
 
 #: /views/layouts/default_install.ctp:46
 #: /views/layouts/default_marker.ctp:57
 #: /views/layouts/default_page.ctp:55
 #: /views/layouts/default_splash.ctp:55
 msgid "Contact"
-msgstr "Kontakt"
+msgstr ""
 
 #: /views/layouts/default_install.ctp:47
 #: /views/layouts/default_marker.ctp:58
@@ -1491,7 +1505,7 @@ msgstr "Kontakt"
 #: /views/layouts/default_splash.ctp:56
 #: /views/pages/mobile/faq.ctp:23
 msgid "FAQ"
-msgstr "Häufig gestellte Fragen"
+msgstr ""
 
 #: /views/layouts/default_install.ctp:48
 #: /views/layouts/default_marker.ctp:59
@@ -1499,60 +1513,60 @@ msgstr "Häufig gestellte Fragen"
 #: /views/layouts/default_splash.ctp:57
 #: /views/pages/mobile/imprint.ctp:23
 msgid "Imprint"
-msgstr "Impressum"
+msgstr ""
 
 #: /views/layouts/default_marker.ctp:70
 #: /views/layouts/default_page.ctp:68
 #: /views/layouts/default_splash.ctp:68
 msgid "What&rsquo;s around?"
-msgstr "Was passiert hier?"
+msgstr ""
 
 #: /views/layouts/default_marker.ctp:71
 #: /views/layouts/default_page.ctp:68
 #: /views/layouts/default_splash.ctp:68
 msgid "RSS-Feed"
-msgstr "RSS-Feed"
+msgstr ""
 
 #: /views/markers/add.ctp:43
 msgid "Add marker"
-msgstr "Anliegen melden"
+msgstr ""
 
 #: /views/markers/add.ctp:64
 msgid "Add your marker"
-msgstr "Anliegen melden"
+msgstr ""
 
 #: /views/markers/add.ctp:65
 #: /views/markers/startup.ctp:63
 msgid "Enter details of the problem. Please note that all fields marked with \"*\" are mandatory."
-msgstr "Bitte beschreiben Sie das Problem. Alle Felder mit \"*\" sind Pflichtfelder."
+msgstr ""
 
 #: /views/markers/add.ctp:68
 msgid "Give us some Information"
-msgstr "Bitte geben Sie uns ein paar zusätzliche Informationen."
+msgstr ""
 
 #: /views/markers/add.ctp:71
 #: /views/markers/startup.ctp:69
 #: /views/markers/mobile/add.ctp:106
 #: /views/markers/mobile/startup.ctp:123
 msgid "Save information"
-msgstr "Speichern"
+msgstr ""
 
 #: /views/markers/add.ctp:75
 #: /views/markers/startup.ctp:74
 msgid "Where does it happen? Localize!"
-msgstr "Suchen Sie die Adresse auf der Karte!"
+msgstr ""
 
 #: /views/markers/add.ctp:76
 msgid "Add a streets name or drag the marker to the desired position"
-msgstr "Bitte Straße und Hausnummer eingeben, oder das Fähnchen an die korrekte Position ziehen."
+msgstr ""
 
 #: /views/markers/admin_edit.ctp:45
 msgid "Administrate marker"
-msgstr "Das Anliegen verwalten"
+msgstr ""
 
 #: /views/markers/admin_edit.ctp:67
 msgid "Administration of markers"
-msgstr "Administration der Anliegen"
+msgstr ""
 
 #: /views/markers/admin_edit.ctp:80
 #: /views/markers/app.ctp:104
@@ -1561,11 +1575,11 @@ msgstr "Administration der Anliegen"
 #: /views/markers/preview.ctp:109
 #: /views/markers/view.ctp:99
 msgid "Are you sure to delete Marker # %s?"
-msgstr "Sind Sie sicher, dass der Anliegen # %s gelöscht werden soll?"
+msgstr ""
 
 #: /views/markers/admin_edit.ctp:88
 msgid "Enter Information"
-msgstr "Informationen eingeben"
+msgstr ""
 
 #: /views/markers/admin_edit.ctp:104
 #: /views/markers/preview.ctp:129
@@ -1573,29 +1587,29 @@ msgstr "Informationen eingeben"
 #: /views/markers/mobile/preview.ctp:63
 #: /views/markers/mobile/view.ctp:59
 msgid "Description"
-msgstr "Beschreibung"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:113
+#: /views/markers/admin_edit.ctp:116
 msgid "Status of Administration"
-msgstr "Bearbeitungsstatus"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:119
+#: /views/markers/admin_edit.ctp:122
 msgid "Notify User"
-msgstr "Benutzer benachrichtigen"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:123
+#: /views/markers/admin_edit.ctp:126
 msgid "Update @Twitter"
-msgstr "Status @Twitter veröffentlichen"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:131
+#: /views/markers/admin_edit.ctp:134
 #: /views/markers/view.ctp:163
 #: /views/markers/mobile/preview.ctp:92
 #: /views/markers/mobile/view.ctp:88
 msgid "Voting"
-msgstr "Abstimmen"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:131
-#: /views/markers/ajaxlist.ctp:157
+#: /views/markers/admin_edit.ctp:134
+#: /views/markers/ajaxlist.ctp:133
 #: /views/markers/app.ctp:75
 #: /views/markers/liste.ctp:82
 #: /views/markers/preview.ctp:159
@@ -1604,39 +1618,39 @@ msgstr "Abstimmen"
 #: /views/markers/mobile/view.ctp:76
 #: /views/users/admin_view.ctp:205
 msgid "Rating"
-msgstr "Bewertung"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:131
+#: /views/markers/admin_edit.ctp:134
 msgid "Both"
-msgstr "Bewertung und Abstimmung"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:135
+#: /views/markers/admin_edit.ctp:138
 msgid "You may choose which kind of feedback is appropriate"
-msgstr "Wählen Sie hier das geeignete Feedback Tool"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:176
+#: /views/markers/admin_edit.ctp:179
 #: /views/pages/admin_index.ctp:168
 msgid "block"
-msgstr "Sperren"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:181
+#: /views/markers/admin_edit.ctp:184
 #: /views/pages/admin_index.ctp:173
 msgid "publish"
-msgstr "Veröffentlichen"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:199
+#: /views/markers/admin_edit.ctp:202
 #: /views/markers/edit.ctp:100
 #: /views/markers/preview.ctp:190
 #: /views/markers/view.ctp:201
 msgid "Map view"
-msgstr "Karte"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:200
+#: /views/markers/admin_edit.ctp:203
 #: /views/markers/edit.ctp:101
 msgid "Please drag the Marker to a desired position or just edit street and zip details"
-msgstr "Bitte ziehen Sie das Fähnchen an die richtige Position oder ändern Sie die Adresseingaben."
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:202
+#: /views/markers/admin_edit.ctp:205
 #: /views/markers/app.ctp:87
 #: /views/markers/edit.ctp:103
 #: /views/markers/liste.ctp:95
@@ -1646,124 +1660,127 @@ msgstr "Bitte ziehen Sie das Fähnchen an die richtige Position oder ändern Sie
 #: /views/markers/mobile/preview.ctp:34
 #: /views/markers/mobile/view.ctp:30
 msgid "static map"
-msgstr "Statische Karte"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:207
+#: /views/markers/admin_edit.ctp:210
 #: /views/markers/edit.ctp:108
 #: /views/markers/preview.ctp:205
 #: /views/markers/view.ctp:213
 #: /views/markers/mobile/preview.ctp:106
 #: /views/markers/mobile/view.ctp:102
 msgid "Photos"
-msgstr "Bilder"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:220
+#: /views/markers/admin_edit.ctp:223
 #: /views/markers/edit.ctp:121
 #: /views/markers/preview.ctp:218
 #: /views/markers/view.ctp:226
-#, fuzzy
 msgid "No Attachment available"
-msgstr "Keine Fotos verfügbar"
-
-#: /views/markers/admin_edit.ctp:237
-#: /views/markers/edit.ctp:140
-msgid "Back to last version"
-msgstr "Zurück zur letzten Version"
+msgstr ""
 
 #: /views/markers/admin_edit.ctp:240
+#: /views/markers/edit.ctp:140
+msgid "Back to last version"
+msgstr ""
+
+#: /views/markers/admin_edit.ctp:243
 #: /views/markers/edit.ctp:143
 msgid "undo"
-msgstr "Rückgängig"
+msgstr ""
 
-#: /views/markers/admin_edit.ctp:247
+#: /views/markers/admin_edit.ctp:250
 msgid "Stats"
-msgstr "Statistik"
-
-#: /views/markers/admin_edit.ctp:248
-#: /views/markers/view.ctp:144
-msgid "Views:"
-msgstr "Aufrufe:"
+msgstr ""
 
 #: /views/markers/admin_edit.ctp:251
+#: /views/markers/view.ctp:144
+msgid "Views:"
+msgstr ""
+
+#: /views/markers/admin_edit.ctp:254
 #: /views/markers/view.ctp:235
 #: /views/markers/mobile/preview.ctp:127
 #: /views/markers/mobile/view.ctp:123
 #: /views/pages/admin_index.ctp:93
 msgid "Log"
-msgstr "Log"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:58;70
+#: /views/markers/admin_edit.ctp:271
+msgid "delete"
+msgstr ""
+
+#: /views/markers/ajaxlist.ctp:57;68
 #: /views/users/admin_index.ctp:92;104
 msgid "hide"
-msgstr "verstecken"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:64
+#: /views/markers/ajaxlist.ctp:62
 #: /views/users/admin_index.ctp:98
 msgid "show"
-msgstr "zeigen"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:103
+#: /views/markers/ajaxlist.ctp:79
 msgid "Filter List"
-msgstr "Liste filtern"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:104;108
+#: /views/markers/ajaxlist.ctp:80;84
 #: /views/markers/app.ctp:136
 #: /views/markers/liste.ctp:155
 msgid "Choose category"
-msgstr "Kategorie auswählen"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:124;128
+#: /views/markers/ajaxlist.ctp:100;104
 #: /views/markers/app.ctp:151
 #: /views/markers/liste.ctp:172
 msgid "Choose status"
-msgstr "Status wählen"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:144
+#: /views/markers/ajaxlist.ctp:120
 #: /views/markers/app.ctp:66
 #: /views/markers/liste.ctp:73
 #: /views/markers/search.ctp:91
 msgid "Page %page% of %pages% | %current% Markers of %count%"
-msgstr "Seite %page% von %pages% | %current% Anliegen von %count%"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:149
+#: /views/markers/ajaxlist.ctp:125
 #: /views/users/admin_index.ctp:142
 msgid "Links"
-msgstr "Admin-Links"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:155
+#: /views/markers/ajaxlist.ctp:131
 msgid "Choose Category"
-msgstr "Kategorie"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:158
+#: /views/markers/ajaxlist.ctp:134
 #: /views/users/admin_view.ctp:206
 msgid "Votes"
-msgstr "Bewertungen"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:159
+#: /views/markers/ajaxlist.ctp:135
 msgid "Voting Yes"
-msgstr "Pro "
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:160
+#: /views/markers/ajaxlist.ctp:136
 msgid "Voting No"
-msgstr "Kontra"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:161
+#: /views/markers/ajaxlist.ctp:137
 msgid "Voting Abs"
-msgstr "Neutral"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:174
+#: /views/markers/ajaxlist.ctp:150
 msgid "No Markers found"
-msgstr "Keine Anliegen gefunden"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:189
+#: /views/markers/ajaxlist.ctp:165
 msgid "Show in Map"
-msgstr "Kartenansicht"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:191
+#: /views/markers/ajaxlist.ctp:167
 msgid "No adress given"
 msgstr ""
 
-#: /views/markers/ajaxlist.ctp:220
+#: /views/markers/ajaxlist.ctp:196
 #: /views/markers/app.ctp:96
 #: /views/markers/edit.ctp:67
 #: /views/markers/liste.ctp:109
@@ -1772,74 +1789,74 @@ msgstr ""
 #: /views/markers/mobile/preview.ctp:52
 #: /views/markers/mobile/view.ctp:48
 msgid "Details"
-msgstr "Details"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:226
+#: /views/markers/ajaxlist.ctp:202
 #: /views/markers/preview.ctp:97
 #: /views/markers/view.ctp:87
 #: /views/markers/mobile/preview.ctp:161
 #: /views/markers/mobile/view.ctp:156
 #: /views/pages/admin_index.ctp:77
 msgid "administrate"
-msgstr "Administrieren"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:230
+#: /views/markers/ajaxlist.ctp:206
 #: /views/markers/mobile/preview.ctp:165
 #: /views/markers/mobile/view.ctp:160
 #: /views/pages/admin_index.ctp:79
 msgid "Are you sure to delete marker # %s?"
-msgstr "Sind Sie sicher, dass der Anliegen # %s gelöscht werden soll?"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:241
+#: /views/markers/ajaxlist.ctp:218
 #: /views/markers/liste.ctp:122
 #: /views/markers/search.ctp:136
 #: /views/markers/mobile/liste.ctp:54
 msgid "Previous Page"
-msgstr "Vorherige Seite"
+msgstr ""
 
-#: /views/markers/ajaxlist.ctp:243
+#: /views/markers/ajaxlist.ctp:220
 #: /views/markers/app.ctp:111
 #: /views/markers/liste.ctp:124
 #: /views/markers/search.ctp:138
 #: /views/markers/mobile/liste.ctp:56
 msgid "Next page"
-msgstr "Nächste Seite"
+msgstr ""
 
 #: /views/markers/app.ctp:51
 msgid "All Markers"
-msgstr "Alle Beiträge"
+msgstr ""
 
 #: /views/markers/app.ctp:69
 msgid "All Markers sorted by"
-msgstr "Alle Beiträge, sortiert nach"
+msgstr ""
 
 #: /views/markers/app.ctp:89
 #: /views/markers/liste.ctp:101
 msgid "Category:"
-msgstr "Kategorie:"
+msgstr ""
 
 #: /views/markers/app.ctp:91
 #: /views/markers/liste.ctp:103
 msgid "Status:"
-msgstr "Status:"
+msgstr ""
 
 #: /views/markers/app.ctp:109
 msgid "Previous page"
-msgstr "Vorherige Seite"
+msgstr ""
 
 #: /views/markers/app.ctp:115
 msgid "Map&rsquo;s View"
-msgstr "Kartenansicht"
+msgstr ""
 
 #: /views/markers/app.ctp:122
 #: /views/markers/liste.ctp:139
 msgid "Choose district"
-msgstr "Bezirk auswählen"
+msgstr ""
 
 #: /views/markers/index.ctp:79
 #: /views/pages/admin_index.ctp:131
 msgid "Reports with fotos"
-msgstr "Beiträge mit Fotos"
+msgstr ""
 
 #: /views/markers/index.ctp:99
 #: /views/markers/view.ctp:35
@@ -1848,124 +1865,124 @@ msgstr "Beiträge mit Fotos"
 #: /views/pages/faq.ctp:34
 #: /views/pages/imprint.ctp:34
 msgid "View details"
-msgstr "Details anzeigen"
+msgstr ""
 
 #: /views/markers/index.ctp:124
 msgid "Click to watch the map"
-msgstr "Klick für Kartenansicht"
+msgstr ""
 
 #: /views/markers/index.ctp:129
 #: /views/pages/admin_index.ctp:69
 msgid "Recent changes"
-msgstr "Letzte Änderungen"
+msgstr ""
 
 #: /views/markers/index.ctp:139
 #: /views/pages/admin_index.ctp:86
 msgid "This happened:"
-msgstr "Was ist passiert:"
+msgstr ""
 
 #: /views/markers/index.ctp:139
 #: /views/pages/admin_index.ctp:86
 msgid ", on "
-msgstr ", am "
+msgstr ""
 
 #: /views/markers/liste.ctp:37
 msgid "List"
-msgstr "Listenansicht"
+msgstr ""
 
 #: /views/markers/liste.ctp:57
 msgid "Your Markers"
-msgstr "Ihre Anliegen"
+msgstr ""
 
 #: /views/markers/liste.ctp:59
 msgid "All Markers "
-msgstr "Alle Beiträge"
+msgstr ""
 
 #: /views/markers/liste.ctp:76
 msgid "Sort markers"
-msgstr "Anliegen sortieren"
+msgstr ""
 
 #: /views/markers/preview.ctp:40
 msgid "Preview Details"
-msgstr "Details ansehen"
+msgstr ""
 
 #: /views/markers/preview.ctp:75
 msgid "Preview"
-msgstr "Vorschau"
+msgstr ""
 
 #: /views/markers/preview.ctp:79
 #: /views/markers/mobile/preview.ctp:31
 msgid "This is the preview of your marker. If this is your first contribution on this platform, please check your mail to confirm your membership."
-msgstr "Dies ist die Vorschau Ihres Anliegens. Ist dies Ihr erster Beitrag bei diesem Service, überprüfen Sie nun Ihr E-Mail Postfach, um Ihr Benutzerkonto zu aktivieren. Erst dann wird Ihr Anliegen im System angezeigt."
+msgstr ""
 
 #: /views/markers/preview.ctp:146
 #: /views/markers/view.ctp:144
 #: /views/markers/mobile/preview.ctp:37
 #: /views/markers/mobile/view.ctp:33
 msgid "added: "
-msgstr "hinzugefügt:"
+msgstr ""
 
 #: /views/markers/preview.ctp:146
 msgid "by "
-msgstr "von"
+msgstr ""
 
 #: /views/markers/preview.ctp:156
 #: /views/markers/view.ctp:144
 msgid "last edited on"
-msgstr "zuletzt geändert am "
+msgstr ""
 
 #: /views/markers/search.ctp:44
 msgid "Results"
-msgstr "Ergebnisse"
+msgstr ""
 
 #: /views/markers/search.ctp:68
 msgid "Search results"
-msgstr "Suchergebnisse"
+msgstr ""
 
 #: /views/markers/search.ctp:85
 msgid "Your results for \""
-msgstr "Suchergebnisse"
+msgstr ""
 
 #: /views/markers/startup.ctp:66
 msgid "Enter marker details"
-msgstr "Anliegendetails eingeben"
+msgstr ""
 
 #: /views/markers/startup.ctp:75
 msgid "Please drag the Marker to the desired position or just enter street and zip details"
-msgstr "Ziehen Sie das Fähnchen zur gewünschten Position oder geben Sie die Adresse ein."
+msgstr ""
 
 #: /views/markers/view.ctp:144
 msgid "Comments:"
-msgstr "Kommentare:"
+msgstr ""
 
 #: /views/markers/view.ctp:164
 #: /views/markers/mobile/preview.ctp:93
 #: /views/markers/mobile/view.ctp:89
 msgid "Do you agree with this?"
-msgstr "Wie stehen Sie zu diesem Vorschlag?"
+msgstr ""
 
 #: /views/markers/mobile/index.ctp:25
 msgid "Welcome to Mas-City.com"
-msgstr "Willkommen beim Bürgeranliegen für Mas-City Develop Branch"
+msgstr ""
 
 #: /views/markers/mobile/liste.ctp:24
 msgid "List view"
-msgstr "Listenansicht"
+msgstr ""
 
 #: /views/markers/mobile/preview.ctp:117
 #: /views/markers/mobile/view.ctp:113
 #: /views/pages/admin_index.ctp:144
 msgid "No picture available"
-msgstr "Keine Fotos verfügbar"
+msgstr ""
 
 #: /views/pages/mobile/twitter.ctp:23;27
 msgid "Twitter Content"
-msgstr "Beiträge twittern"
+msgstr ""
 
 #: /views/statuses/add.ctp:4
 #: /views/statuses/admin_add.ctp:4
 msgid "Add Processcat"
-msgstr "Prozesskategorie hinzufügen"
+msgstr ""
 
 #: /views/statuses/add.ctp:17
 #: /views/statuses/admin_add.ctp:17
@@ -1974,274 +1991,275 @@ msgstr "Prozesskategorie hinzufügen"
 #: /views/statuses/edit.ctp:19
 #: /views/statuses/view.ctp:43
 msgid "List Statuses"
-msgstr "Status anzeigen"
+msgstr ""
 
 #: /views/statuses/admin_edit.ctp:4
 #: /views/statuses/admin_view.ctp:41
 #: /views/statuses/edit.ctp:4
 #: /views/statuses/view.ctp:41
 msgid "Edit Processcat"
-msgstr "Prozesskategorie bearbeiten"
+msgstr ""
 
 #: /views/statuses/admin_index.ctp:2
 #: /views/statuses/index.ctp:2
 msgid "Statuses"
-msgstr "Status"
+msgstr ""
 
 #: /views/statuses/admin_index.ctp:65
 #: /views/statuses/admin_view.ctp:44
 #: /views/statuses/index.ctp:65
 #: /views/statuses/view.ctp:44
 msgid "New Processcat"
-msgstr "Neue Prozesskategorie"
+msgstr ""
 
 #: /views/statuses/admin_view.ctp:42
 #: /views/statuses/view.ctp:42
 msgid "Delete Processcat"
-msgstr "Prozesskategorie löschen"
+msgstr ""
 
 #: /views/twitter/admin_index.ctp:42;64
 msgid "Admin Tweets"
-msgstr "Twitterbeiträge administrieren"
+msgstr ""
 
 #: /views/twitter/admin_index.ctp:96
 msgid "Import to Mark-a-Spot"
-msgstr "In Mark-a-Spot importieren"
+msgstr ""
 
 #: /views/twitter/admin_index.ctp:104
 msgid "No geolocation given"
-msgstr "keine Lokalisierung"
+msgstr ""
 
 #: /views/twitter/admin_index.ctp:125
 msgid "Reply before Import"
-msgstr "Anfordern"
+msgstr ""
 
 #: /views/twitter/admin_index.ctp:130
 msgid "More details"
-msgstr "Details"
+msgstr ""
 
 #: /views/twitter/admin_index.ctp:130
 msgid "Detailed address"
-msgstr "Adresse"
+msgstr ""
 
 #: /views/twitter/admin_index.ctp:130
 msgid "A picture?"
-msgstr "Bild"
+msgstr ""
 
 #: /views/twitter/admin_index.ctp:138
 msgid "Ignore Tweet"
-msgstr "Tweet ignorieren"
+msgstr ""
 
 #: /views/twitter/admin_index.ctp:173
 msgid "No Tweets with Mentions or #hashtag"
-msgstr "Keine Erwähnungen oder Tweets mit #hastag"
+msgstr ""
 
 #: /views/twitter/callback.ctp:30
 msgid "Logged in via Twitter"
-msgstr "Angemeldet über Twitter"
+msgstr ""
 
 #: /views/twitter/callback.ctp:61
 msgid "Twitter API Credentials"
-msgstr "Twitter Anmeldung"
+msgstr ""
 
 #: /views/twitter/callback.ctp:63
 msgid "<p>Thank you. You are now logged in with your twitter Account and your Nickname is:</p>"
-msgstr "<p>Sie sind nun über Ihren Twitter-Namen angemeldet und Ihr Pseudonym ist"
+msgstr ""
 
 #: /views/twitter/callback.ctp:65
 msgid "<p>If you find your way back to this plattform just log in by clicking on the Twitter Connect Link again:</p>"
-msgstr "<p>Sobald Sie wieder hier sind, können Sie sich sich auf dem gleichen Weg wieder anmelden.</p> "
+msgstr ""
 
 #: /views/users/admin_add.ctp:40
 #: /views/users/admin_edit.ctp:40
 #: /views/users/admin_index.ctp:40;136
 #: /views/users/admin_password.ctp:42
 msgid "Admin Users"
-msgstr "Benutzer administrieren"
+msgstr ""
 
 #: /views/users/admin_add.ctp:48
+#: /views/users/admin_index.ctp:209
 msgid "Add User"
-msgstr "Benutzer hinzufügen"
+msgstr ""
 
 #: /views/users/admin_add.ctp:70
 msgid "Admin Add User"
-msgstr "Benutzer hinzufügen"
+msgstr ""
 
 #: /views/users/admin_add.ctp:82
 #: /views/users/admin_edit.ctp:101
 #: /views/users/admin_password.ctp:83
 msgid "Submit"
-msgstr "Information speichern"
+msgstr ""
 
 #: /views/users/admin_edit.ctp:48
 #: /views/users/admin_view.ctp:118
 msgid "Edit User"
-msgstr "Benutzer bearbeiten"
+msgstr ""
 
 #: /views/users/admin_edit.ctp:69;72
 #: /views/users/admin_password.ctp:74
 msgid "Admin Edit User"
-msgstr "Benutzer bearbeiten"
+msgstr ""
 
 #: /views/users/admin_index.ctp:172
 msgid "Admin-User"
-msgstr "Admin-User"
+msgstr ""
 
 #: /views/users/admin_index.ctp:172
 msgid "disabled"
-msgstr "ausgeschaltet"
+msgstr ""
 
 #: /views/users/admin_index.ctp:172
 msgid "blocked"
-msgstr "gesperrt"
+msgstr ""
 
 #: /views/users/admin_index.ctp:172
 msgid "active"
-msgstr "aktiv"
+msgstr ""
 
 #: /views/users/admin_index.ctp:191
 msgid "Are you sure to delete user # %s?"
-msgstr "Sind Sie sicher, dass der Benutzer # %s gelöscht werden soll?"
+msgstr ""
 
 #: /views/users/admin_index.ctp:194
 msgid "Change Password"
-msgstr "Passwort ändern"
+msgstr ""
 
-#: /views/users/admin_index.ctp:215
-#: /plugins/configurator/views/configurations/admin_index.ctp:79
+#: /views/users/admin_index.ctp:222
+#: /plugins/configurator/views/configurations/admin_index.ctp:112
 msgid "previous"
-msgstr "Vorherige Seite"
+msgstr ""
 
 #: /views/users/admin_password.ctp:49;71
 msgid "Admin Edit User Password"
-msgstr "Neues Passwort"
+msgstr ""
 
 #: /views/users/admin_password.ctp:78
 #: /views/users/newpassword.ctp:55
 msgid "Passwort"
-msgstr "Passwort"
+msgstr ""
 
 #: /views/users/admin_password.ctp:79
 #: /views/users/newpassword.ctp:56
 #: /views/users/signup.ctp:62
 msgid "Password repeat"
-msgstr "Passwort wiederholen"
+msgstr ""
 
 #: /views/users/admin_view.ctp:39
 msgid "Edit categories"
-msgstr "Kategorien bearbeiten"
+msgstr ""
 
 #: /views/users/admin_view.ctp:68
 msgid "Email Address"
-msgstr "E-Mail Adresse"
+msgstr ""
 
 #: /views/users/admin_view.ctp:78
 msgid "Active"
-msgstr "Aktiv"
+msgstr ""
 
 #: /views/users/admin_view.ctp:88
 msgid "Prename"
-msgstr "Vorname"
+msgstr ""
 
 #: /views/users/admin_view.ctp:98
 msgid "Fon"
-msgstr "Telefon"
+msgstr ""
 
 #: /views/users/admin_view.ctp:119
 msgid "Delete User"
-msgstr "Benutzer löschen"
+msgstr ""
 
 #: /views/users/admin_view.ctp:120
 msgid "List Users"
-msgstr "Benutzer anzeigen"
+msgstr ""
 
 #: /views/users/admin_view.ctp:121
 msgid "New User"
-msgstr "Neuer Benutzer"
+msgstr ""
 
 #: /views/users/admin_view.ctp:126
 msgid "List Transactions"
-msgstr "Transaktionen anzeigen"
+msgstr ""
 
 #: /views/users/admin_view.ctp:127;304
 msgid "New Transaction"
-msgstr "Neue Transaktion"
+msgstr ""
 
 #: /views/users/admin_view.ctp:128
 msgid "List Groups"
-msgstr "Gruppen"
+msgstr ""
 
 #: /views/users/admin_view.ctp:129
 msgid "New Group"
-msgstr "Neue Gruppe"
+msgstr ""
 
 #: /views/users/admin_view.ctp:133
 msgid "Related Comments"
-msgstr "Verwandte Kommentare"
+msgstr ""
 
 #: /views/users/admin_view.ctp:138;272
 msgid "Marker Id"
-msgstr "Anliegen ID"
+msgstr ""
 
 #: /views/users/admin_view.ctp:139;191;270
 msgid "User Id"
-msgstr "Benutzer ID"
+msgstr ""
 
 #: /views/users/admin_view.ctp:140
 msgid "Group Id"
-msgstr "Gruppen ID"
+msgstr ""
 
 #: /views/users/admin_view.ctp:142
 msgid "Email"
-msgstr "E-Mail-Adresse"
+msgstr ""
 
 #: /views/users/admin_view.ctp:185
 msgid "Related Markers"
-msgstr "Verwandte Anliegen"
+msgstr ""
 
 #: /views/users/admin_view.ctp:190
 msgid "Gov Id"
-msgstr "Government ID "
+msgstr ""
 
 #: /views/users/admin_view.ctp:192
 msgid "Status Id"
-msgstr "Status ID"
+msgstr ""
 
 #: /views/users/admin_view.ctp:193
 msgid "District Id"
-msgstr "Bezirk"
+msgstr ""
 
 #: /views/users/admin_view.ctp:194
 msgid "Source Id"
-msgstr "Quelle ID"
+msgstr ""
 
 #: /views/users/admin_view.ctp:196
 msgid "Descr"
-msgstr "Beschreibung"
+msgstr ""
 
 #: /views/users/admin_view.ctp:197
 msgid "Category Id"
-msgstr "Kategorie ID"
+msgstr ""
 
 #: /views/users/admin_view.ctp:198
 msgid "Street"
-msgstr "Straße"
+msgstr ""
 
 #: /views/users/admin_view.ctp:207
 msgid "Dirname"
-msgstr "Verzeichnisname"
+msgstr ""
 
 #: /views/users/admin_view.ctp:208
 msgid "Basename"
-msgstr "Basename"
+msgstr ""
 
 #: /views/users/admin_view.ctp:209
 msgid "Checksum"
-msgstr "Checksum"
+msgstr ""
 
 #: /views/users/admin_view.ctp:210
 msgid "Media Url"
-msgstr "Media URL"
+msgstr ""
 
 #: /views/users/admin_view.ctp:211
 msgid "Event Start"
@@ -2261,153 +2279,146 @@ msgstr ""
 
 #: /views/users/login.ctp:56
 msgid "Enter login data"
-msgstr "Ihre Anmeldedaten"
+msgstr ""
 
 #: /views/users/login.ctp:62
 #: /views/users/mobile/login.ctp:41
 msgid "Log in automatically on this computer"
-msgstr "Automatisch anmelden"
+msgstr ""
 
 #: /views/users/login.ctp:65
 msgid "<span>Log in</span>"
-msgstr "<span>Anmelden</span>"
+msgstr ""
 
 #: /views/users/login.ctp:69
 msgid "Are you already a member of the following social media networks? Sign in to out platform based on \"Mark-a-Spot\""
-msgstr "Sind Sie Mitglied dieser Sozialen Netzwerke? Melden Sie sich über Ihr dortiges Konto an:"
+msgstr ""
 
 #: /views/users/login.ctp:76
 msgid "<span>Sign with Twitter</span>"
-msgstr "<span>Mit Twitter.Konto anmelden</span>"
+msgstr ""
 
 #: /views/users/login.ctp:83
 #: /views/users/resetpassword.ctp:58
 msgid "You haven&rsquo;t been here yet and want to add a marker?"
-msgstr "Zum ersten Mal hier?"
+msgstr ""
 
 #: /views/users/login.ctp:86
 #: /views/users/resetpassword.ctp:61
 msgid "Add a marker directly"
-msgstr "Direkt einen Anliegen geben"
+msgstr ""
 
 #: /views/users/login.ctp:87
 #: /views/users/resetpassword.ctp:62
 msgid "Lost your password?"
-msgstr "Passwort vergessen?"
+msgstr ""
 
 #: /views/users/newpassword.ctp:28
 msgid "Enter a new password"
-msgstr "Geben Sie ein neues Passwort ein."
+msgstr ""
 
 #: /views/users/newpassword.ctp:48
 msgid "Choose a new password"
-msgstr "Passwort auswählen"
+msgstr ""
 
 #: /views/users/newpassword.ctp:58
 msgid "<span>Save new password</span>"
-msgstr "Neues Passwort speichern"
+msgstr ""
 
 #: /views/users/resetpassword.ctp:27;47
 msgid "Reset your password"
-msgstr "Passwort zurücksetzen"
+msgstr ""
 
 #: /views/users/resetpassword.ctp:51
 msgid "<div>Enter the e-mail address you used for registration</div>"
-msgstr "<div>Geben Sie Ihre E-Mail-Adresse ein</div>"
+msgstr ""
 
 #: /views/users/resetpassword.ctp:51
 msgid "e-mail"
-msgstr "E-Mail Adresse"
+msgstr ""
 
 #: /views/users/resetpassword.ctp:54
 msgid "<span>Request e-mail</span>."
-msgstr "<span>E-Mail anfordern</span>"
+msgstr ""
 
 #: /views/users/signup.ctp:49
 msgid "Signup"
-msgstr "Registrierung"
+msgstr ""
 
 #: /views/users/signup.ctp:57
 msgid "E-mail"
-msgstr "E-Mail Adresse"
+msgstr ""
 
 #: /views/users/signup.ctp:76
 msgid "<span>Sign up</span>."
-msgstr "Registrieren"
+msgstr ""
 
-#: /plugins/configurator/controllers/configurations_controller.php:26;52;70
+#: /plugins/configurator/controllers/configurations_controller.php:28;55;74
 msgid "Invalid configuration."
-msgstr "Konfigurationseintrag ist nicht gültig"
+msgstr ""
 
-# weg damit
-#: /plugins/configurator/controllers/configurations_controller.php:39;57
+#: /plugins/configurator/controllers/configurations_controller.php:42;60
 msgid "The configuration has been saved."
-msgstr "Konfiguration wurde gespeichert."
+msgstr ""
 
-#: /plugins/configurator/controllers/configurations_controller.php:42;60
+#: /plugins/configurator/controllers/configurations_controller.php:45;63
 msgid "The configuration could not be saved."
-msgstr "Konfiguration konnte nicht gespeichert werden"
+msgstr ""
 
-#: /plugins/configurator/controllers/configurations_controller.php:42;60
+#: /plugins/configurator/controllers/configurations_controller.php:45;63
 msgid "Please, try again."
-msgstr "Versuchen Sie es noch einmal"
+msgstr ""
 
-#: /plugins/configurator/controllers/configurations_controller.php:74
+#: /plugins/configurator/controllers/configurations_controller.php:78
 msgid "Configuration deleted."
 msgstr ""
 
-#: /plugins/configurator/controllers/configurations_controller.php:77
+#: /plugins/configurator/controllers/configurations_controller.php:81
 msgid "Configuration was not deleted."
-msgstr "Konfigurationseintrag konnte nicht gelöscht werden"
+msgstr ""
 
 #: /plugins/configurator/views/configurations/admin_add.ctp:47
-#: /plugins/configurator/views/configurations/admin_index.ctp:87
 msgid "Add Configuration"
-msgstr "Konfiguration: Wert und Schlüssel hinzufügen"
+msgstr ""
 
 #: /plugins/configurator/views/configurations/admin_add.ctp:51
-#: /plugins/configurator/views/configurations/admin_edit.ctp:52
+#: /plugins/configurator/views/configurations/admin_edit.ctp:54
 msgid "The key must be unique."
 msgstr ""
 
 #: /plugins/configurator/views/configurations/admin_add.ctp:52
-#: /plugins/configurator/views/configurations/admin_edit.ctp:53
+#: /plugins/configurator/views/configurations/admin_edit.ctp:55
 msgid "The key can contain only alphanumerical characters, underscore and a dot. It cannot start or end or have more than one subsequent dot."
 msgstr ""
 
 #: /plugins/configurator/views/configurations/admin_add.ctp:53
-#: /plugins/configurator/views/configurations/admin_edit.ctp:54
-#, fuzzy
+#: /plugins/configurator/views/configurations/admin_edit.ctp:56
 msgid "That key is reserved and cannot be used."
-msgstr "Das Anliegen konnte nicht gespeichert werden."
+msgstr ""
 
-#: /plugins/configurator/views/configurations/admin_edit.ctp:44
-#, fuzzy
+#: /plugins/configurator/views/configurations/admin_edit.ctp:46
 msgid "Edit Configuration"
-msgstr "Informationen eingeben"
+msgstr ""
 
-#: /plugins/configurator/views/configurations/admin_index.ctp:41
+#: /plugins/configurator/views/configurations/admin_index.ctp:42
 msgid "Configurations"
 msgstr ""
 
-#: /plugins/configurator/views/configurations/admin_index.ctp:71
-#: /plugins/configurator/views/configurations/admin_view.ctp:75
-#, fuzzy
-msgid "Are you sure you want to delete \"%s\"?"
-msgstr "Sicher, dass Sie # %s löschen wollen?"
-
-#: /plugins/configurator/views/configurations/admin_view.ctp:44
+#: /plugins/configurator/views/configurations/admin_view.ctp:46
 msgid "Key"
 msgstr ""
 
-#: /plugins/configurator/views/configurations/admin_view.ctp:49
+#: /plugins/configurator/views/configurations/admin_view.ctp:51
 msgid "Value"
 msgstr ""
 
-#: /plugins/configurator/views/configurations/admin_view.ctp:76
-#, fuzzy
+#: /plugins/configurator/views/configurations/admin_view.ctp:77
+msgid "Are you sure you want to delete \"%s\"?"
+msgstr ""
+
+#: /plugins/configurator/views/configurations/admin_view.ctp:78
 msgid "List Configurations"
-msgstr "Transaktionen anzeigen"
+msgstr ""
 
 #: /plugins/debug_kit/controllers/components/toolbar.php:99
 msgid "Component intitailization"
@@ -2492,9 +2503,8 @@ msgid ""
 msgstr ""
 
 #: /plugins/debug_kit/vendors/shells/benchmark.php:149
-#, fuzzy
 msgid "\tUse:"
-msgstr "Benutzer"
+msgstr ""
 
 #: /plugins/debug_kit/vendors/shells/benchmark.php:150
 msgid "\t\tcake benchmark [-n iterations] [-t timeout] url"
@@ -2535,14 +2545,12 @@ msgid "\tNote that this benchmark does not include browser render time"
 msgstr ""
 
 #: /plugins/debug_kit/views/debug.php:41
-#, fuzzy
 msgid "Rendering %s"
-msgstr "Warnung: %s"
+msgstr ""
 
 #: /plugins/debug_kit/views/debug.php:83
-#, fuzzy
 msgid "Rendering View"
-msgstr "Warnung: %s"
+msgstr ""
 
 #: /plugins/debug_kit/views/debug.php:89
 msgid "View render complete"
@@ -2553,33 +2561,28 @@ msgid "There are no active panels. You must enable a panel to see its output."
 msgstr ""
 
 #: /plugins/debug_kit/views/elements/history_panel.ctp:21
-#, fuzzy
 msgid "Request History"
-msgstr "Versionshistorie"
+msgstr ""
 
 #: /plugins/debug_kit/views/elements/history_panel.ctp:23
-#, fuzzy
 msgid "No previous requests logged."
-msgstr "Keine Fotos verfügbar"
+msgstr ""
 
 #: /plugins/debug_kit/views/elements/history_panel.ctp:25
-#, fuzzy
 msgid "previous requests available"
-msgstr "Keine Fotos verfügbar"
+msgstr ""
 
 #: /plugins/debug_kit/views/elements/history_panel.ctp:27
 msgid "Restore to current request"
 msgstr ""
 
 #: /plugins/debug_kit/views/elements/log_panel.ctp:21
-#, fuzzy
 msgid "Logs"
-msgstr "Log"
+msgstr ""
 
 #: /plugins/debug_kit/views/elements/log_panel.ctp:28
-#, fuzzy
 msgid "Time"
-msgstr "Titel"
+msgstr ""
 
 #: /plugins/debug_kit/views/elements/log_panel.ctp:28
 #: /plugins/debug_kit/views/elements/timer_panel.ctp:40;64
@@ -2591,23 +2594,20 @@ msgid "There were no log entries made this request"
 msgstr ""
 
 #: /plugins/debug_kit/views/elements/request_panel.ctp:21
-#, fuzzy
 msgid "Request"
-msgstr "Versionshistorie"
+msgstr ""
 
 #: /plugins/debug_kit/views/elements/request_panel.ctp:35
-#, fuzzy
 msgid "Current Route"
-msgstr "zur Zeit"
+msgstr ""
 
 #: /plugins/debug_kit/views/elements/session_panel.ctp:21
 msgid "Session"
 msgstr ""
 
 #: /plugins/debug_kit/views/elements/sql_log_panel.ctp:25
-#, fuzzy
 msgid "Sql Logs"
-msgstr "Anmelden"
+msgstr ""
 
 #: /plugins/debug_kit/views/elements/sql_log_panel.ctp:40
 msgid "Query Explain:"
@@ -2634,9 +2634,8 @@ msgid "Memory use"
 msgstr ""
 
 #: /plugins/debug_kit/views/elements/timer_panel.ctp:53
-#, fuzzy
 msgid "Timers"
-msgstr "Titel"
+msgstr ""
 
 #: /plugins/debug_kit/views/elements/timer_panel.ctp:55
 msgid "%s (ms)"
@@ -2647,18 +2646,16 @@ msgid "Total Request Time:"
 msgstr ""
 
 #: /plugins/debug_kit/views/elements/timer_panel.ctp:65
-#, fuzzy
 msgid "Time in ms"
-msgstr "Titel"
+msgstr ""
 
 #: /plugins/debug_kit/views/elements/timer_panel.ctp:66
 msgid "Graph"
 msgstr ""
 
 #: /plugins/debug_kit/views/elements/variables_panel.ctp:21
-#, fuzzy
 msgid "View Variables"
-msgstr "Details anzeigen"
+msgstr ""
 
 #: /plugins/debug_kit/views/helpers/html_toolbar.php:182
 msgid "Explain"
@@ -2693,308 +2690,26 @@ msgid "Migration action type (%s) is not one of valid actions type."
 msgstr ""
 
 #: /plugins/debug_kit/libs/model/cake_migration.php:236;293
-#, fuzzy
 msgid "Table \"%s\" already exists in database."
-msgstr "Diesen Benutzer gibt es nicht."
+msgstr ""
 
 #: /plugins/debug_kit/libs/model/cake_migration.php:243;269;300;372;388
-#, fuzzy
 msgid "SQL Error: %s"
-msgstr "Fehler: %s"
+msgstr ""
 
 #: /plugins/debug_kit/libs/model/cake_migration.php:262;289
 msgid "Table \"%s\" does not exists in database."
-msgstr "Tabelle \"%s\" existiert nicht in Datenbank"
+msgstr ""
 
 #: /plugins/debug_kit/libs/model/cake_migration.php:332
 msgid "Field \"%s\" does not exists in \"%s\"."
-msgstr "Dieses Feld \"%s\" existiert nicht in \"%s\""
+msgstr ""
 
 #: /plugins/debug_kit/libs/model/cake_migration.php:340
 msgid "Field \"%s\" already exists in \"%s\"."
-msgstr "Dieses Feld \"%s\" existiert bereits in \"%s\""
+msgstr ""
 
 #: /plugins/debug_kit/libs/model/cake_migration.php:423
 msgid "Interrupted when running \"%s\" callback."
 msgstr ""
 
-
-
-
-
-
-#models
-
-msgid "Please enter a title"
-msgstr "Bitte einen kurzen Titel angeben"
-
-msgid "This zip code is not in field list"
-msgstr "Diese Postleitzahl befindet sich nicht im gültigen Stadtgebiet"
-
-msgid "Please enter a valid zip code"
-msgstr "Bitte eine gültige Postleitzahl angeben"
-
-msgid "Please enter the City\'s Name"
-msgstr "Bitte den Stadtnamen angeben"
-
-msgid "Please enter a street name or drag the marker"
-msgstr "Bitte einen Straßennamen eingeben"
-
-msgid "Please choose one of the categories"
-msgstr "Bitte eine Kategorie wählen"
-
-msgid "This file is not valid (extension, bigger than 3600px)"
-msgstr "Die hochgeladene Datei kann nicht verarbeitet werden"
-
-msgid "Please enter a valid e-mail address"
-msgstr "Bitte geben Sie eine (gültige) E-Mail-Adresse ein"
-
-msgid "This e-mail-address is already registered"
-msgstr "Diese E-Mail-Adresse ist bereits registriert"
-
-msgid "Password needs 6 chars"
-msgstr "Bitte ein Passwort mit mindestens 6 Zeichen eingeben
-
-msgid "Passwords are case-sensitive (Password is not the same as Password repeat"
-msgstr "Die Passwörter sind nicht identisch
-
-msgid "This nickname ist already registered"
-msgstr "Dieser Name ist bereits vergeben"
-
-
-#~ msgid "Newsletter?"
-#~ msgstr "Newsletter?"
-
-#~ msgid "Whats up"
-#~ msgstr "Dieses Feld muss ausgefüllt werden"
-
-#~ msgid "Jump to latest marker"
-#~ msgstr "Springe zum letzten Anliegen"
-
-#~ msgid "Jump to latest comment"
-#~ msgstr "Springe zum letzten Kommentar"
-
-#~ msgid "Ratings"
-#~ msgstr "Bewertungen"
-
-#~ msgid "Jump to latest rated marker"
-#~ msgstr "Springe zum letzten bewerteten Anliegen"
-
-#~ msgid "Thanks for reporting that issue #markaspot messageID:"
-#~ msgstr "Vielen Dank für diesen Anliegen ID#"
-
-#~ msgid "Bürgeranliegen bearbeitet: "
-#~ msgstr "Bürgeranliegen bearbeitet:"
-
-#~ msgid "View Marker"
-#~ msgstr "Beitrag ansehen"
-
-#~ msgid "Comment published"
-#~ msgstr "Der Kommentar wurde veröffentlicht."
-
-#~ msgid "Back to start"
-#~ msgstr "Zurück zum Start"
-
-#~ msgid "markers admin_edit"
-#~ msgstr "Beitrag durch Verwaltung bearbeitet"
-
-#~ msgid "Version history"
-#~ msgstr "Versionshistorie"
-
-#, fuzzy
-#~ msgid "Username or password not found"
-#~ msgstr ""
-#~ "Ihr Benutzer wurde nicht gefunden oder das Passwort wurde falsch "
-#~ "eingegeben"
-
-#~ msgid "Participate ..."
-#~ msgstr "Mitmachen ..."
-
-#~ msgid "Stay informed ..."
-#~ msgstr "Informiert bleiben"
-
-#~ msgid "What is going on ... "
-#~ msgstr "Was passiert hier ..."
-
-#~ msgid "MessCity is cleaning up: #markaspot "
-#~ msgstr "Schon wieder eine Störung beseitigt #FixMyStreet #Markaspot "
-
-#~ msgid "name"
-#~ msgstr "Nachname"
-
-#~ msgid "Commented by authorities"
-#~ msgstr "Kommentiert durch Verwaltung"
-
-#~ msgid "Please login to rate"
-#~ msgstr "Bitte melden Sie sich an, um abzustimmen."
-
-#~ msgid "Thanks for your rating"
-#~ msgstr "Vielen Dank für Ihre Stimme!"
-
-#~ msgid "Click to remove your rating"
-#~ msgstr "Klicken Sie hier, um ihre Stimme zurück zu nehmen."
-
-#~ msgid "Really bad"
-#~ msgstr "Wen interessiert das?"
-
-#~ msgid "Bad"
-#~ msgstr "Unwichtig"
-
-#~ msgid "Average"
-#~ msgstr "Relevant"
-
-#~ msgid "Good"
-#~ msgstr "Wichtig"
-
-#~ msgid "Really good"
-#~ msgstr "Brennpunkt"
-
-#~ msgid "Stimme/n"
-#~ msgstr "Stimme/n"
-
-#~ msgid "Undo"
-#~ msgstr "Rückgängig"
-
-#~ msgid "Markers by category: "
-#~ msgstr "Anliegen nach Kategorie"
-
-#~ msgid "Markers by status: "
-#~ msgstr "Anliegen nach Status"
-
-#~ msgid "All markers"
-#~ msgstr "Alle Beiträge"
-
-#~ msgid "Add Cat"
-#~ msgstr "Kategorie hinzufügen"
-
-#~ msgid "Save Information"
-#~ msgstr "Speichern"
-
-#~ msgid "close"
-#~ msgstr "Schließen"
-
-#~ msgid "List view of Markers"
-#~ msgstr "Anliegen als Liste"
-
-#~ msgid "View, Edit, Delete"
-#~ msgstr "Aktionen"
-
-#, fuzzy
-#~ msgid ""
-#~ "The Marker ID# %s has been saved. \n"
-#~ "\t\t\t\t\t\tPlease check your e-mail."
-#~ msgstr ""
-#~ "Das Anliegen mit der ID# %s wurde gespeichert. Bitte überprüfen Sie Ihren "
-#~ "E-Mail Eingang."
-
-#~ msgid "Marker edited by authorities: #mas Status: "
-#~ msgstr "Anliegen von Verwaltung bearbeitet #mas Status: "
-
-#~ msgid "Marker fixed by authorities: #mas Status: "
-#~ msgstr "Und schon wieder ein Anliegen abgeschlossen #mas Status: "
-
-#~ msgid "Notice: %s"
-#~ msgstr "Achtung: %s"
-
-#~ msgid "ok"
-#~ msgstr "Ok"
-
-#~ msgid "unknown"
-#~ msgstr "Unbekannt"
-
-#~ msgid "failed"
-#~ msgstr "Fehlgeschlagen"
-
-#~ msgid "Quitting."
-#~ msgstr "Beenden"
-
-#~ msgid "rate"
-#~ msgstr "Abstimmen"
-
-#~ msgid "Cats"
-#~ msgstr "Kategorien"
-
-#~ msgid "Cat"
-#~ msgstr "Kategorie"
-
-#~ msgid "Processcats"
-#~ msgstr "Prozesskategorien"
-
-#~ msgid "Processcat"
-#~ msgstr "Prozesskategorie"
-
-# delete
-#~ msgid "Are you to delete Marker with # %s?"
-#~ msgstr "Möchten Sie den Marker mit # %s löschen?"
-#~ msgid "Your Account Data on "
-#~ msgstr "Ihre Benutzerdaten"
-#~ msgid "New marker ID#"
-#~ msgstr "Neuer Anliegen Id#"
-#~ msgid "<span>Save Information</span>"
-#~ msgstr "<span>Informationen speichern</span>"
-# msgid "Votes"
-# msgid_plural "Vote"
-#~ msgid "Dieses Anliegen bewerten"
-#~ msgstr "Dieses Anliegen bewerten"
-#~ msgid "bewerten"
-#~ msgstr "bewerten"
-#~ msgid "Log in with your e-mail"
-#~ msgstr "Mit Ihrer E-Mail-Adresse anmelden"
-#~ msgid "Invalid Comment."
-#~ msgstr "Ungültiger Kommentar"
-#, fuzzy
-#~ msgid "This marker could not be saved"
-#~ msgstr "Das Anliegen konnte nicht gespeichert werden."
-
-#, fuzzy
-#~ msgid "This marker does not exist"
-#~ msgstr "Dieses Anliegen gibt es nicht."
-
-#~ msgid "Please enter a commment"
-#~ msgstr "Bitte geben Sie einen Kommentar ein"
-
-#~ msgid "We need a valid e-mail address"
-#~ msgstr "Bitte geben Sie eine gültige E-Mail Adresse ein"
-
-#~ msgid "We need a short subject or title here"
-#~ msgstr "Wir benötigen einen kurzen Titel, wie \"Gullideckel fehlt\""
-
-#~ msgid "Is there more to say, please describe some details"
-#~ msgstr "Eine kurze Beschreibung hier bitte"
-
-#~ msgid "Please enter a street or drag the marker in the map"
-#~ msgstr ""
-#~ "Bitte geben Sie eine Straße und eventuell Hausnummer ein, oder ziehen Sie "
-#~ "das Fähnchen auf der Karte"
-
-#~ msgid "Sorry, we do not like that file"
-#~ msgstr "Diese Datei können wir nicht annehmen"
-
-#~ msgid "This e-mail adress is already registered"
-#~ msgstr "Diese E-Mail-Adresse ist bereits in Verwendung."
-
-#~ msgid "We need a password with a minimum of 6 chars"
-#~ msgstr "Bitte ein Passwort mit mindestesn 6 Zeichen eingeben"
-
-#~ msgid "The passwords are not same"
-#~ msgstr "Die Passwörter stimmen nicht überein"
-
-#~ msgid "Only numbers allowed here (min. 4 chars)"
-#~ msgstr "Hier sind nur Zahlen erlaubt (minim. 4)"
-
-#~ msgid "Please choose a nickname (minimum 3, maximum 10 chars)"
-#~ msgstr "Bitte wählen Sie einen Pseudonym aus"
-
-#~ msgid "This nickname is already in use"
-#~ msgstr "Dieses Pseudonym ist bereits in Verwendung"
-
-#~ msgid "next Page"
-#~ msgstr "nächste Seite"
-
-#, fuzzy
-#~ msgid "bearbeiten"
-#~ msgstr "bewerten"
-
-#, fuzzy
-#~ msgid "Unpublished marker ID#"
-#~ msgstr "Neues Anliegen Id#"
