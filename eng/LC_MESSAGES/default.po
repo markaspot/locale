@@ -1166,13 +1166,13 @@ msgstr ""
 #: /views/elements/navigation.ctp:8
 #: /views/elements/navigation_footer.ctp:6
 msgid "Your markers"
-msgstr ""
+msgstr "Your reports"
 
 #: /views/elements/admin_sidebar.ctp:10
 #: /views/elements/navigation.ctp:10
 #: /views/elements/navigation_footer.ctp:7
 msgid "Add another marker"
-msgstr ""
+msgstr "Add Report"
 
 #: /views/elements/admin_sidebar.ctp:14
 #: /views/elements/navigation.ctp:14
@@ -1184,7 +1184,7 @@ msgstr ""
 #: /views/pages/mobile/display.ctp:24
 #: /views/users/newpassword.ctp:62
 msgid "Add a marker"
-msgstr ""
+msgstr "Add Report"
 
 #: /views/elements/admin_sidebar.ctp:28
 msgid "Twitter"
