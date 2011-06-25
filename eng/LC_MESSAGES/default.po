@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mark-a-Spot\n"
 "POT-Creation-Date: 2011-06-03 06:16+0000\n"
-"PO-Revision-Date: 2011-06-24 08:32+0100\n"
+"PO-Revision-Date: 2011-06-25 15:25+0100\n"
 "Last-Translator: Holger Kreis <holger@markaspot.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1419,7 +1419,7 @@ msgstr ""
 
 #: /views/elements/navigation_footer.ctp:3
 msgid "View markers in map"
-msgstr ""
+msgstr "Reports Map"
 
 #: /views/elements/search.ctp:3
 msgid "Search in Mas-City"
@@ -1529,7 +1529,7 @@ msgstr ""
 
 #: /views/markers/add.ctp:43
 msgid "Add marker"
-msgstr ""
+msgstr "Add Report"
 
 #: /views/markers/add.ctp:64
 msgid "Add your marker"
