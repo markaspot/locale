@@ -2214,10 +2214,10 @@ msgstr "Registrieren"
 
 
 
-msgid "Help us building a plattform";
+msgid "Help us building a plattform"
 msgstr "Neues entdecken"
 
-msgid "Start participating here...";
+msgid "Start participating here..."
 msgstr "Mach' mit, zeig' uns deinen Lieblingsplatz ..."
 
 
