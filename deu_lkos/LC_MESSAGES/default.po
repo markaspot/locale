@@ -107,7 +107,7 @@ msgstr "Ungültiger Kommentar"
 #: /controllers/markers_controller.php:143
 #: /views/markers/index.ctp:49
 msgid "Welcome to mas-city.com/markaspot"
-msgstr "Mein Lieblingsplatz im Osnabrücker Land und Münsterland"
+msgstr "Heimatkenner mitgemacht!"
 
 #: /controllers/markers_controller.php:235;284
 msgid "Markers in a list"
@@ -1350,7 +1350,7 @@ msgstr "Über diese Plattform"
 #: /views/layouts/default_page.ctp:55
 #: /views/layouts/default_splash.ctp:55
 msgid "Contact"
-msgstr "Kontakt"
+msgstr "Wir über uns"
 
 #: /views/layouts/default_marker.ctp:58
 #: /views/layouts/default_page.ctp:56
