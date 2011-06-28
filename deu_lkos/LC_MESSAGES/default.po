@@ -1171,7 +1171,7 @@ msgstr "Kommentar"
 #: /views/users/resetpassword.ctp:52
 #: /views/users/signup.ctp:72
 msgid "<div>To prevent spammers, please calculate:</div>"
-msgstr "<div>Spam-Schutz: Bitte rechnen Sie folgende Aufgabe:</div>"
+msgstr "<div>Spam-Schutz: Bitte rechne folgende Aufgabe:</div>"
 
 #: /views/elements/form_comments.ctp:51
 msgid "Save Comment"
@@ -1308,7 +1308,7 @@ msgstr "Willkommen, "
 
 #: /views/elements/welcome.ctp:35
 msgid "please log in"
-msgstr "bitte melden Sie sich an!"
+msgstr "bitte melde Dich an!"
 
 #: /views/layouts/default_marker.ctp:23
 #: /views/layouts/default_page.ctp:23
@@ -1389,11 +1389,11 @@ msgstr "Lieblingsplatz eintragen"
 #: /views/markers/add.ctp:65
 #: /views/markers/startup.ctp:63
 msgid "Enter details of the problem. Please note that all fields marked with \"*\" are mandatory."
-msgstr "Bitte beschreiben Sie das Problem. Alle Felder mit \"*\" sind Pflichtfelder."
+msgstr "Alle Felder mit \"*\" sind Pflichtfelder."
 
 #: /views/markers/add.ctp:68
 msgid "Give us some Information"
-msgstr "Bitte geben Sie uns ein paar zusätzliche Informationen."
+msgstr "Bitte gib uns ein paar zusätzliche Informationen."
 
 #: /views/markers/add.ctp:71
 #: /views/markers/startup.ctp:69
