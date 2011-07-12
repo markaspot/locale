@@ -168,7 +168,7 @@ msgstr "Administration der Tweets"
 
 #: /controllers/twitter_controller.php:199
 msgid "Sorry, something went wrong"
-msgstr "Entschuldigung, bitte wiederhole den Vorgang"
+msgstr "Entschuldigung, bitte wiederholen Sie den Vorgang"
 
 #: /controllers/twitter_controller.php:232
 #: /controllers/users_controller.php:90
@@ -200,7 +200,7 @@ msgstr "Anmelden"
 
 #: /controllers/users_controller.php:45
 msgid "You signed in successfully with your Facebook account"
-msgstr "Du bist nun über deinen Facebook Account angemeldet und können Beiträge einstellen"
+msgstr "Du bist nun über deinen Facebook Account angemeldet und kannst Beiträge einstellen"
 
 #: /controllers/users_controller.php:75
 #: /views/users/signup.ctp:28
@@ -225,7 +225,7 @@ msgstr "Diesen Benutzer gibt es nicht."
 
 #: /controllers/users_controller.php:202
 msgid "Your userdata and all markers have been deleted."
-msgstr "Deine Benutzerdaten und alle Lieblingsplatz wurden gelöscht."
+msgstr "Deine Benutzerdaten und alle Lieblingsplätze wurden gelöscht."
 
 #: /controllers/users_controller.php:209
 msgid "You logged out successfully"
@@ -241,7 +241,7 @@ msgstr "Wir konnten deine E-Mail Adresse nicht im Datenbestand finden."
 
 #: /controllers/users_controller.php:258
 msgid "Please check your mail to receive more details."
-msgstr "Bitte überprüfe deinen E-Mail Eingang."
+msgstr "Bitte überprüfe deinen E-Mail-Eingang."
 
 #: /controllers/users_controller.php:264
 msgid "The ticket could not be sent."
@@ -249,7 +249,7 @@ msgstr "Die E-Mail mit Anweisung zum Ändern deines Passwortes konnte nicht gese
 
 #: /controllers/users_controller.php:300
 msgid "Now enter your new password below."
-msgstr "Gib ein neues Passwort ein."
+msgstr "Geben Sie ein neues Passwort ein."
 
 #: /controllers/users_controller.php:305
 msgid "Your ticket is no longer available."
@@ -257,15 +257,15 @@ msgstr "Der Link ist nicht mehr gültig."
 
 #: /controllers/users_controller.php:322
 msgid "Enter new Password"
-msgstr "Gib ein neues Passwort ein. "
+msgstr "Gebe ein neues Passwort ein. "
 
 #: /controllers/users_controller.php:349;482
 msgid "Your password has been changed"
-msgstr "Ihr Passwort wurde erfolgreich geändert."
+msgstr "Dein Passwort wurde erfolgreich geändert."
 
 #: /controllers/users_controller.php:354;487
 msgid "Your password could not be changed."
-msgstr "Ihr Passwort konnte nicht geändert werden."
+msgstr "Dein Passwort konnte nicht geändert werden."
 
 #: /controllers/users_controller.php:368
 msgid "We could not find this user."
@@ -273,7 +273,7 @@ msgstr "Dieser Benutzer wurde nicht gefunden."
 
 #: /controllers/users_controller.php:375
 msgid "This User and all his data has been deleted"
-msgstr "Deine Benutzerdaten und alle Lieblingsplatz wurden gelöscht."
+msgstr "Deine Benutzerdaten und alle Lieblingsplätze wurden gelöscht."
 
 #: /controllers/users_controller.php:404;433;459
 msgid "Invalid user"
@@ -318,7 +318,7 @@ msgstr "Lieblingsplatz-Position korrigiert"
 
 #: /controllers/components/transaction.php:85
 msgid "Marker has been rated"
-msgstr "Der Lieblingsplatz wurde bewertet."
+msgstr "Dieser Lieblingsplatz wurde bewertet."
 
 #: /controllers/components/transaction.php:89
 msgid "Marker has been voted"
@@ -334,7 +334,7 @@ msgstr "Lieblingsplatz via Twitter"
 
 #: /controllers/components/twitter_service.php:49
 msgid "Twitter Reply More Information: "
-msgstr "Hast du zusätzliche Infos? "
+msgstr "Haben Sie zusätzliche Infos? "
 
 #: /controllers/components/twitter_service.php:53
 msgid "Twitter Details needed"
@@ -346,7 +346,7 @@ msgstr "Bitte Geolokalisierung aktivieren"
 
 #: /controllers/components/twitter_service.php:61
 msgid "Twitter Picture available?"
-msgstr "Hast du ein Bild für uns"
+msgstr "Haben Sie ein Bild für uns"
 
 #: /controllers/components/twitter_service.php:77
 msgid "Twitter Success Thanks! Your ID:  "
@@ -386,7 +386,7 @@ msgstr ""
 #: /views/layouts/default_page.ctp:63
 #: /views/layouts/default_splash.ctp:63
 msgid "What would you like to do?"
-msgstr "Was möchtest du tun?"
+msgstr "Was möchten Sie tun?"
 
 #: /plugins/media/views/elements/attachments.ctp:59
 msgid "%s"
@@ -454,7 +454,7 @@ msgstr "Danke für's Abstimmen."
 
 #: /plugins/rating/config/plugin_rating.php:174
 msgid "Click to undo rating"
-msgstr "Klicke hier, um die Stimme zurückzunehmen."
+msgstr "Klicken Sie hier, um die Stimme zurückzunehmen."
 
 #: /plugins/rating/config/plugin_rating.php:175
 msgid "Who cares!"
@@ -481,7 +481,7 @@ msgstr "5 Sterne"
 #: /views/markers/mobile/preview.ctp:81
 #: /views/markers/mobile/view.ctp:77
 msgid "Please rate this Marker"
-msgstr "Bewerte den Beitrag!"
+msgstr "Bewerten Sie den Beitrag!"
 
 #: /plugins/rating/controllers/ratings_controller.php:137
 msgid "Vote(s)"
@@ -776,7 +776,7 @@ msgstr "Kategorie löschen"
 #: /views/statuses/view.ctp:42
 #: /views/users/admin_view.ctp:120;172;252;296;336
 msgid "Are you sure you want to delete # %s?"
-msgstr "Sicher, dass du # %s löschen wollen?"
+msgstr "Sicher, dass Du # %s löschen willst?"
 
 #: /views/categories/admin_view.ctp:107
 msgid "List Categories"
@@ -1066,7 +1066,7 @@ msgstr "Abmelden"
 #: /views/elements/form_add_edit_admin.ctp:6
 #: /views/elements/form_startup.ctp:2
 msgid "<div>Enter a short subject</div>"
-msgstr "<div>Gib einen kurzen Titel ein, z.B. \"Aussichtsturm Warusschlachtmuseum Bramsche\"</div>"
+msgstr "<div>Gebe einen kurzen Titel ein, z.B. \"Aussichtsturm Warusschlachtmuseum Bramsche\"</div>"
 
 #: /views/elements/form_add_edit_admin.ctp:6
 #: /views/elements/form_startup.ctp:2
@@ -1122,7 +1122,7 @@ msgstr "Stadt "
 #: /views/markers/mobile/add.ctp:82
 #: /views/markers/mobile/startup.ctp:84
 msgid "Describe the situation"
-msgstr "Beschreibe kurz deinen Lieblingsplatz, was Dir besonders gut gefällt (bspw. Aussichtsturm mit schönen Blick über das Hügelland")"
+msgstr "Beschreibe kurz deinen Lieblingsplatz, was dir besonders gut gefällt (bspw. Aussichtsturm mit schönen Blick über das Hügelland")"
 
 #: /views/elements/form_add_edit_admin.ctp:15
 #: /views/elements/form_startup.ctp:15
@@ -1236,7 +1236,7 @@ msgstr "Software:"
 
 #: /views/elements/navigation.ctp:3
 msgid "All Content in a Map,Filter in Categories or view Ratings"
-msgstr "Alle Beträge in der Karte betrachten, nach Kategorien filtern und andere Auswertungsmöglichkeiten"
+msgstr "Alle Beiträge in der Karte betrachten, nach Kategorien filtern und andere Auswertungsmöglichkeiten"
 
 #: /views/elements/navigation.ctp:3
 #: /views/markers/add.ctp:36
@@ -1308,7 +1308,7 @@ msgstr "Willkommen, "
 
 #: /views/elements/welcome.ctp:35
 msgid "please log in"
-msgstr "bitte melde Dich an!"
+msgstr "bitte melden Sie sich an!"
 
 #: /views/layouts/default_marker.ctp:23
 #: /views/layouts/default_page.ctp:23
@@ -1393,7 +1393,7 @@ msgstr "Alle Felder mit \"*\" sind Pflichtfelder."
 
 #: /views/markers/add.ctp:68
 msgid "Give us some Information"
-msgstr "Bitte gib uns ein paar zusätzliche Informationen."
+msgstr "Bitte gebe uns ein paar zusätzliche Informationen."
 
 #: /views/markers/add.ctp:71
 #: /views/markers/startup.ctp:69
@@ -1405,7 +1405,7 @@ msgstr "Speichern"
 #: /views/markers/add.ctp:75
 #: /views/markers/startup.ctp:74
 msgid "Where does it happen? Localize!"
-msgstr "Suche die Adresse auf der Karte!"
+msgstr "Suchen Sie die Adresse auf der Karte!"
 
 #: /views/markers/add.ctp:76
 msgid "Add a streets name or drag the marker to the desired position"
@@ -1768,7 +1768,7 @@ msgstr "Vorschau"
 #: /views/markers/preview.ctp:77
 #: /views/markers/mobile/preview.ctp:31
 msgid "This is the preview of your marker. If this is your first contribution on this platform, please check your mail to confirm your membership."
-msgstr "Dies ist die Vorschau deines Lieblingsplatzes. Ist dies Ihr erster Beitrag bei diesem Service, überprüfe nun Ihr E-Mail Postfach, um Ihr Benutzerkonto zu aktivieren. Erst dann wird Ihr Lieblingsplatz im System angezeigt."
+msgstr "Dies ist die Vorschau deines Lieblingsplatzes. Ist dies dein erster Beitrag bei diesem Service, überprüfe nun dein E-Mail Postfach, um dein Benutzerkonto zu aktivieren. Erst dann wird dein Lieblingsplatz im System angezeigt."
 
 #: /views/markers/preview.ctp:126
 #: /views/markers/view.ctp:125
@@ -1915,7 +1915,7 @@ msgstr "Twitter Anmeldung"
 
 #: /views/twitter/callback.ctp:63
 msgid "<p>Thank you. You are now logged in with your twitter Account and your Nickname is:</p>"
-msgstr "<p>Du bist nun über deinen Twitter-Namen angemeldet und Ihr Pseudonym ist"
+msgstr "<p>du bist nun über deinen Twitter-Namen angemeldet und Ihr Pseudonym ist"
 
 #: /views/twitter/callback.ctp:65
 msgid "<p>If you find your way back to this plattform just log in by clicking on the Twitter Connect Link again:</p>"
@@ -2096,7 +2096,7 @@ msgid "Street"
 msgstr "Straße"
 
 #: /views/users/admin_view.ctp:208
-msgid "Dirname"
+msgid "dirname"
 msgstr "Verzeichnisname"
 
 #: /views/users/admin_view.ctp:209
@@ -2142,7 +2142,7 @@ msgstr "<span>Anmelden</span>"
 
 #: /views/users/login.ctp:69
 msgid "Are you already a member of the following social media networks? Sign in to out platform based on \"Mark-a-Spot\""
-msgstr "Bist du Mitglied dieser Sozialen Netzwerke? Melde dich über Ihr dortiges Konto an:"
+msgstr "Bist du Mitglied dieser Sozialen Netzwerke? Melde dich über dein dortiges Konto an:"
 
 #: /views/users/login.ctp:76
 msgid "<span>Sign with Twitter</span>"
@@ -2156,7 +2156,7 @@ msgstr "Zum ersten Mal hier?"
 #: /views/users/login.ctp:86
 #: /views/users/resetpassword.ctp:61
 msgid "Add a marker directly"
-msgstr "Direkt einen Lieblingsplatz geben"
+msgstr "direkt einen Lieblingsplatz geben"
 
 #: /views/users/login.ctp:87
 #: /views/users/resetpassword.ctp:62
@@ -2165,7 +2165,7 @@ msgstr "Passwort vergessen?"
 
 #: /views/users/newpassword.ctp:28
 msgid "Enter a new password"
-msgstr "Gib ein neues Passwort ein."
+msgstr "Gebe ein neues Passwort ein."
 
 #: /views/users/newpassword.ctp:48
 msgid "Choose a new password"
@@ -2181,7 +2181,7 @@ msgstr "Passwort zurücksetzen"
 
 #: /views/users/resetpassword.ctp:51
 msgid "<div>Enter the e-mail address you used for registration</div>"
-msgstr "<div>Gib deine E-Mail-Adresse ein</div>"
+msgstr "<div>Gebe deine E-Mail-Adresse ein</div>"
 
 #: /views/users/resetpassword.ctp:51
 msgid "e-mail"
@@ -2414,7 +2414,7 @@ msgstr "Bitte erkäre dich damit einverstanden, um die Aktualität des Angebots 
 #~ msgstr "Vielen Dank für deine Stimme!"
 
 #~ msgid "Click to remove your rating"
-#~ msgstr "Klicke hier, um ihre Stimme zurück zu nehmen."
+#~ msgstr "Klicken Sie hier, um ihre Stimme zurück zu nehmen."
 
 #~ msgid "Really bad"
 #~ msgstr "Wen interessiert das?"
@@ -2466,7 +2466,7 @@ msgstr "Bitte erkäre dich damit einverstanden, um die Aktualität des Angebots 
 #~ "The Marker ID# %s has been saved. \n"
 #~ "\t\t\t\t\t\tPlease check your e-mail."
 #~ msgstr ""
-#~ "Der Lieblingsplatz mit der ID# %s wurde gespeichert. Bitte überprüfe deinen "
+#~ "Der Lieblingsplatz mit der ID# %s wurde gespeichert. Bitte überprüfen Sie deinen "
 #~ "E-Mail Eingang."
 
 #~ msgid "Marker edited by authorities: #mas Status: "
