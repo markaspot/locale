@@ -1066,7 +1066,7 @@ msgstr "Abmelden"
 #: /views/elements/form_add_edit_admin.ctp:6
 #: /views/elements/form_startup.ctp:2
 msgid "<div>Enter a short subject</div>"
-msgstr "<div>Gebe einen kurzen Titel ein, z.B. \"Aussichtsturm Warusschlachtmuseum Bramsche\"</div>"
+msgstr "<div>Gebe einen kurzen Titel ein, z.B. \"Varusschlacht Museum Kalkriese\"</div>"
 
 #: /views/elements/form_add_edit_admin.ctp:6
 #: /views/elements/form_startup.ctp:2
