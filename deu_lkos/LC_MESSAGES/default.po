@@ -1308,7 +1308,7 @@ msgstr "Willkommen, "
 
 #: /views/elements/welcome.ctp:35
 msgid "please log in"
-msgstr "bitte melden Sie sich an!"
+msgstr "bitte melde dich an!"
 
 #: /views/layouts/default_marker.ctp:23
 #: /views/layouts/default_page.ctp:23
